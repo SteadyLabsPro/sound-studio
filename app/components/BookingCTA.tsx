@@ -27,7 +27,7 @@ export default function BookingCTA() {
         </h2>
         <div className="h-px w-12 bg-gold/50 mx-auto mb-8" />
         <p className="font-sans text-base text-cream/55 leading-relaxed max-w-md mx-auto mb-12">
-          Browse upcoming group sound baths, book a private session or enquire about a tarot reading. Booking is quick and easy via Bookwhen.
+          Browse upcoming group sound baths, book a private session or enquire about a tarot reading. Corporate events available upon enquiry.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
