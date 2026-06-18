@@ -8,11 +8,11 @@ export default function Hero() {
       {/* "€"€ Mobile image "€"€ */}
       <div className="relative w-full h-[38vh] md:hidden order-first flex-shrink-0">
         <Image
-          src="/images/sound-healing.jpeg"
-          alt="Crystal singing bowls arranged for a sound bath session at Sound Studio, Mudeford, Christchurch, Dorset"
+          src="/images/sound-bath-chewton-glen-hampshire.jpeg"
+          alt="Sam performing a sound bath by the pool at Chewton Glen, Hampshire — Sound Studio immersive sound healing experiences"
           fill
           className="object-cover object-[center_58%]"
-          style={{ transform: "scaleX(-1)" }}
+          style={{}}
           priority
           sizes="100vw"
         />
@@ -82,11 +82,11 @@ export default function Hero() {
       {/* "€"€ Right "" image panel (desktop only) "€"€ */}
       <div className="hidden md:block relative md:w-[60%] flex-shrink-0">
         <Image
-          src="/images/sound-healing.jpeg"
-          alt="Crystal singing bowls arranged for a sound bath session at Sound Studio, Mudeford, Christchurch, Dorset"
+          src="/images/sound-bath-chewton-glen-hampshire.jpeg"
+          alt="Sam performing a sound bath by the pool at Chewton Glen, Hampshire — Sound Studio immersive sound healing experiences"
           fill
           className="object-cover object-center"
-          style={{ transform: "scaleX(-1)" }}
+          style={{}}
           priority
           sizes="60vw"
         />
