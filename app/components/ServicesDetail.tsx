@@ -17,8 +17,8 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Group Sound Baths — cream */}
-      <section id="sound-baths" className="bg-cream py-20 md:py-28 px-6 md:px-10">
+      {/* Group Sound Baths — linen */}
+      <section id="sound-baths" className="bg-linen py-20 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
@@ -41,14 +41,14 @@ export default function ServicesDetail() {
               Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths are held regularly - all are welcome, no experience necessary.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-linen p-6">
+              <div className="bg-cream p-6">
                 <p className="font-display text-xl text-dark mb-1">1 Hour Sound Bath</p>
                 <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
                 <p className="font-display text-3xl text-dark font-light">
                   &pound;20 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
                 </p>
               </div>
-              <div className="bg-linen p-6">
+              <div className="bg-cream p-6">
                 <p className="font-display text-xl text-dark mb-1">90 Minute Sound Bath</p>
                 <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
                 <p className="font-display text-3xl text-dark font-light">
@@ -68,8 +68,8 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Private Sound Healing & Tarot — deep linen */}
-      <section id="sound-therapy" className="bg-[#D6C9B5] py-20 md:py-28 px-6 md:px-10">
+      {/* Private Sound Healing & Tarot — cream */}
+      <section id="sound-therapy" className="bg-cream py-20 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
@@ -92,7 +92,7 @@ export default function ServicesDetail() {
               A deeply personal experience combining intuitive tarot guidance with a restorative sound healing journey - designed to bring clarity, insight, and deep relaxation.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-cream/60 p-6">
+              <div className="bg-linen p-6">
                 <p className="font-display text-xl text-dark mb-1">1:1 Tarot &amp; Sound Healing</p>
                 <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-3">Private Session</p>
                 <p className="font-sans text-xs text-dark/45 leading-relaxed mb-4">
@@ -100,7 +100,7 @@ export default function ServicesDetail() {
                 </p>
                 <p className="font-display text-3xl text-dark font-light">&pound;65</p>
               </div>
-              <div className="bg-cream/60 p-6">
+              <div className="bg-linen p-6">
                 <p className="font-display text-xl text-dark mb-1">2:1 Tarot &amp; Sound Healing</p>
                 <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-3">Shared Session</p>
                 <p className="font-sans text-xs text-dark/45 leading-relaxed mb-4">
@@ -119,8 +119,8 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Tarot — linen */}
-      <section id="tarot" className="bg-linen py-20 md:py-28 px-6 md:px-10">
+      {/* Tarot — deep linen */}
+      <section id="tarot" className="bg-[#D6C9B5] py-20 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
@@ -162,8 +162,8 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Corporate — cream */}
-      <section id="corporate" className="bg-cream py-20 md:py-28 px-6 md:px-10">
+      {/* Corporate — linen */}
+      <section id="corporate" className="bg-linen py-20 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
@@ -185,7 +185,7 @@ export default function ServicesDetail() {
             <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
               Sam is available to bring sound healing to your corporate event, wellness day, or team building session. Whether you&apos;re looking to reduce stress, improve focus, or offer your team something genuinely restorative - Sam creates a tailored experience to suit your group and setting.
             </p>
-            <div className="bg-linen p-6 w-fit">
+            <div className="bg-cream p-6 w-fit">
               <p className="font-display text-xl text-dark mb-1">Bespoke Event</p>
               <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-4">Corporate &amp; Private Events</p>
               <p className="font-display text-3xl text-dark font-light">Price on Application</p>
@@ -201,7 +201,7 @@ export default function ServicesDetail() {
       </section>
 
       {/* Footer note */}
-      <section className="bg-linen py-14 px-6 md:px-10">
+      <section className="bg-cream py-14 px-6 md:px-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
           <div className="h-px flex-1 bg-dark/10 hidden md:block" />
           <p className="font-sans text-sm text-dark/50 leading-relaxed max-w-lg">
