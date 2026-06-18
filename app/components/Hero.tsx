@@ -11,8 +11,7 @@ export default function Hero() {
           src="/images/sam-sound-studio.jpeg"
           alt="Sam, sound healer and founder of Sound Studio, Mudeford, Christchurch, Dorset"
           fill
-          className="object-cover object-[center_58%]"
-          style={{}}
+          className="object-cover object-[center_15%]"
           priority
           sizes="100vw"
         />
@@ -85,8 +84,7 @@ export default function Hero() {
           src="/images/sam-sound-studio.jpeg"
           alt="Sam, sound healer and founder of Sound Studio, Mudeford, Christchurch, Dorset"
           fill
-          className="object-cover object-center"
-          style={{}}
+          className="object-cover object-[center_15%]"
           priority
           sizes="60vw"
         />
