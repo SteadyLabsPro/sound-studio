@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef, useEffect } from "react";
 
@@ -61,18 +61,18 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-2.5">
 
-      {/* Formspree magic fields — sets reply-to and subject on received emails */}
+      {/* Formspree magic fields - sets reply-to and subject on received emails */}
       <input type="hidden" name="_replyto" value="" />
       <input type="hidden" name="_subject" value="New enquiry via Sound Studio" />
 
-      {/* Name + Email — side by side on wider screens */}
+      {/* Name + Email - side by side on wider screens */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
         <Field label="Your Name *">
           <input
             type="text"
             name="name"
             required
-            placeholder="—"
+            placeholder="-"
             className="bg-transparent font-sans text-sm text-dark placeholder-dark/35 outline-none w-full"
           />
         </Field>
@@ -81,7 +81,7 @@ export default function ContactForm() {
             type="email"
             name="email"
             required
-            placeholder="—"
+            placeholder="-"
             className="bg-transparent font-sans text-sm text-dark placeholder-dark/35 outline-none w-full"
           />
         </Field>
@@ -92,12 +92,12 @@ export default function ContactForm() {
         <input
           type="tel"
           name="phone"
-          placeholder="—"
+          placeholder="-"
           className="bg-transparent font-sans text-sm text-dark placeholder-dark/35 outline-none w-full"
         />
       </Field>
 
-      {/* Enquiry type — custom dropdown */}
+      {/* Enquiry type - custom dropdown */}
       <Field label="Type of Enquiry">
         <CustomSelect
           value={enquiry}
@@ -114,7 +114,7 @@ export default function ContactForm() {
           name="message"
           required
           rows={5}
-          placeholder="—"
+          placeholder="-"
           className="bg-transparent font-sans text-sm text-dark placeholder-dark/35 outline-none resize-none leading-relaxed w-full"
         />
       </Field>
@@ -131,7 +131,7 @@ export default function ContactForm() {
 
         {state === "error" && (
           <p className="font-sans text-xs text-red-600/70">
-            Something went wrong — please try again or email us directly.
+            Something went wrong - please try again or email us directly.
           </p>
         )}
       </div>

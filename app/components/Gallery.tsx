@@ -54,7 +54,7 @@ export default function Gallery() {
           </a>
         </div>
 
-        {/* Grid â€” desktop mosaic, mobile stack */}
+        {/* Grid "" desktop mosaic, mobile stack */}
         <div className="hidden md:grid grid-cols-4 grid-rows-2 gap-3 h-[600px]">
           {images.map((img, i) => (
             <div key={i} className={`relative overflow-hidden group ${img.className}`}>
@@ -71,7 +71,7 @@ export default function Gallery() {
           ))}
         </div>
 
-        {/* Mobile â€” 2-column grid */}
+        {/* Mobile "" 2-column grid */}
         <div className="grid md:hidden grid-cols-2 gap-3">
           {images.map((img, i) => (
             <div

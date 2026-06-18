@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function ServicesDetail() {
   return (
@@ -34,7 +34,7 @@ export default function ServicesDetail() {
 
           <div className="flex flex-col gap-6">
             <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
-              Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths are held regularly — all are welcome, no experience necessary.
+              Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths are held regularly - all are welcome, no experience necessary.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
@@ -75,7 +75,7 @@ export default function ServicesDetail() {
 
           <div className="flex flex-col gap-6">
             <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
-              A deeply personal experience combining intuitive tarot guidance with a restorative sound healing journey — designed to bring clarity, insight, and deep relaxation.
+              A deeply personal experience combining intuitive tarot guidance with a restorative sound healing journey - designed to bring clarity, insight, and deep relaxation.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
@@ -157,7 +157,7 @@ export default function ServicesDetail() {
 
           <div className="flex flex-col gap-6">
             <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
-              Sam is available to bring sound healing to your corporate event, wellness day, or team building session. Whether you&apos;re looking to reduce stress, improve focus, or offer your team something genuinely restorative — Sam creates a tailored experience to suit your group and setting.
+              Sam is available to bring sound healing to your corporate event, wellness day, or team building session. Whether you&apos;re looking to reduce stress, improve focus, or offer your team something genuinely restorative - Sam creates a tailored experience to suit your group and setting.
             </p>
 
             <div className="bg-linen/50 p-6 w-fit">
@@ -181,7 +181,7 @@ export default function ServicesDetail() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
           <div className="h-px flex-1 bg-dark/10 hidden md:block" />
           <p className="font-sans text-sm text-dark/50 leading-relaxed max-w-lg">
-            All private sessions take place in Sam&apos;s peaceful wellness pod in Mudeford — a calm and nurturing environment for healing, reflection, and reconnection. If you have any questions or would like to book a session, please{" "}
+            All private sessions take place in Sam&apos;s peaceful wellness pod in Mudeford - a calm and nurturing environment for healing, reflection, and reconnection. If you have any questions or would like to book a session, please{" "}
             <Link href="/contact" className="text-dark underline underline-offset-4 hover:text-gold transition-colors">
               get in touch
             </Link>.

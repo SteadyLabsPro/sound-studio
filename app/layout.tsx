@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 
@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sound Studio — Sound Baths & Sound Healing | Dorset",
+  title: "Sound Studio - Sound Baths & Sound Healing | Dorset",
   description:
     "Immersive sound bath and sound healing experiences in Dorset. Group sound baths, private sessions, and tarot readings with Sam at Sound Studio.",
   keywords: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "wellbeing Dorset",
   ],
   openGraph: {
-    title: "Sound Studio — Immersive Sound Experiences",
+    title: "Sound Studio - Immersive Sound Experiences",
     description: "A calm space to reconnect through sound, stillness and self-discovery.",
     type: "website",
   },

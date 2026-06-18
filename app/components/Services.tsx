@@ -8,7 +8,7 @@ const services = [
     subtitle: "Group Sessions",
     description:
       "Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths held regularly in our Mudeford studio.",
-    detail: "60 â€“ 75 min Â· Group",
+    detail: "60 - 75 min · Group",
     image: "/images/wellness-relaxtion-sound-studio.jpeg",
     imageAlt: "Sound healing session space set up for a group sound bath",
     objectPosition: "center 30%",
@@ -20,7 +20,7 @@ const services = [
     subtitle: "Private Sessions",
     description:
       "A deeply personal one-to-one experience tailored to your wellbeing goals. Instruments are placed on and around the body for a full vibrational reset.",
-    detail: "60 min Â· 1:1",
+    detail: "60 min · 1:1",
     image: "/images/sound-studio-healing-mudeford.jpeg",
     imageAlt: "Group sound bath session at Sound Studio Mudeford",
     objectPosition: "center 45%",
@@ -32,7 +32,7 @@ const services = [
     subtitle: "Intuitive Readings",
     description:
       "A reflective and intuitive tarot reading to gain clarity, perspective and insight. Available as a standalone session or paired with sound healing.",
-    detail: "45 min Â· 1:1",
+    detail: "45 min · 1:1",
     image: "/images/sound-studio-mudeford-beach.jpeg",
     imageAlt: "Sound bowl held at sunset on the beach at Mudeford",
     objectPosition: "center 60%",
