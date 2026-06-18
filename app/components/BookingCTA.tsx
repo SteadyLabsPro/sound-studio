@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 
 export default function BookingCTA() {
   return (
@@ -6,7 +6,7 @@ export default function BookingCTA() {
       {/* Background image with heavy overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/Images/sound-healing-dorset.jpeg"
+          src="/images/sound-healing-dorset.jpeg"
           alt=""
           fill
           className="object-cover opacity-25"

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -14,7 +14,7 @@ export default function Nav() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/Images/sound-studio.png"
+            src="/images/sound-studio.png"
             alt="Sound Studio"
             width={52}
             height={32}

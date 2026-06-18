@@ -1,29 +1,29 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 
 const images = [
   {
-    src: "/Images/sound-bath-chewton-glen-hampshire.jpeg",
+    src: "/images/sound-bath-chewton-glen-hampshire.jpeg",
     alt: "Sound bath at Chewton Glen, Hampshire",
     className: "col-span-2 row-span-2",
   },
   {
-    src: "/Images/sound-studio-healing-mudeford.jpeg",
+    src: "/images/sound-studio-healing-mudeford.jpeg",
     alt: "Sam with crystal singing bowls during a sound healing session at Sound Studio",
     className: "col-span-1 row-span-1",
     objectPosition: "center 25%",
   },
   {
-    src: "/Images/wellness-relaxtion-sound-studio.jpeg",
+    src: "/images/wellness-relaxtion-sound-studio.jpeg",
     alt: "Relaxation and wellness at Sound Studio",
     className: "col-span-1 row-span-1",
   },
   {
-    src: "/Images/sound-healing-dorset.jpeg",
+    src: "/images/sound-healing-dorset.jpeg",
     alt: "Sound healing at golden hour in Dorset",
     className: "col-span-1 row-span-1",
   },
   {
-    src: "/Images/mindfull-healing-sound-studio.jpeg",
+    src: "/images/mindfull-healing-sound-studio.jpeg",
     alt: "Mindful sound healing session",
     className: "col-span-1 row-span-1",
   },
@@ -54,7 +54,7 @@ export default function Gallery() {
           </a>
         </div>
 
-        {/* Grid — desktop mosaic, mobile stack */}
+        {/* Grid â€” desktop mosaic, mobile stack */}
         <div className="hidden md:grid grid-cols-4 grid-rows-2 gap-3 h-[600px]">
           {images.map((img, i) => (
             <div key={i} className={`relative overflow-hidden group ${img.className}`}>
@@ -71,7 +71,7 @@ export default function Gallery() {
           ))}
         </div>
 
-        {/* Mobile — 2-column grid */}
+        {/* Mobile â€” 2-column grid */}
         <div className="grid md:hidden grid-cols-2 gap-3">
           {images.map((img, i) => (
             <div
