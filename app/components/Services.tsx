@@ -42,7 +42,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-parchment py-24 md:py-32">
+    <section id="services" className="bg-parchment pt-14 pb-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
         {/* Section header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 gap-6">
