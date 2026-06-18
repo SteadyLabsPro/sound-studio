@@ -29,7 +29,8 @@ const images = [
   },
 ];
 
-export default function Gallery() {
+export default function Gallery({ isPage = false }: { isPage?: boolean }) {
+  const Heading = isPage ? "h1" : "h2";
   return (
     <section id="gallery" className="bg-cream py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
@@ -39,9 +40,13 @@ export default function Gallery() {
             <p className="text-xs tracking-[0.3em] uppercase text-gold font-sans mb-4">
               The Experience
             </p>
-            <h2 className="font-display text-4xl md:text-5xl text-dark font-medium">
-              Inside the <em className="font-light italic">Studio</em>
-            </h2>
+            <Heading className="font-display text-4xl md:text-5xl text-dark font-medium">
+              {isPage ? (
+                <><em className="font-light italic">Sound Healing</em>{" "}with Sam</>
+              ) : (
+                <>Inside the <em className="font-light italic">Studio</em></>
+              )}
+            </Heading>
           </div>
           <a
             href="https://www.instagram.com/soundstudio_00"
