@@ -3,28 +3,28 @@
 const images = [
   {
     src: "/images/sound-bath-chewton-glen-hampshire.jpeg",
-    alt: "Sound bath at Chewton Glen, Hampshire",
+    alt: "Sound bath wellness event at Chewton Glen hotel, Hampshire — corporate sound healing by Sound Studio",
     className: "col-span-2 row-span-2",
   },
   {
     src: "/images/sound-studio-healing-mudeford.jpeg",
-    alt: "Sam with crystal singing bowls during a sound healing session at Sound Studio",
+    alt: "Sam playing crystal singing bowls during a sound healing session at Sound Studio, Mudeford, Christchurch, Dorset",
     className: "col-span-1 row-span-1",
     objectPosition: "center 25%",
   },
   {
     src: "/images/wellness-relaxtion-sound-studio.jpeg",
-    alt: "Relaxation and wellness at Sound Studio",
+    alt: "Relaxation and wellness at a group sound bath session at Sound Studio, Christchurch, Dorset",
     className: "col-span-1 row-span-1",
   },
   {
     src: "/images/sound-healing-dorset.jpeg",
-    alt: "Sound healing at golden hour in Dorset",
+    alt: "Outdoor sound healing at golden hour near Mudeford beach, Christchurch, Dorset — Sound Studio",
     className: "col-span-1 row-span-1",
   },
   {
     src: "/images/mindfull-healing-sound-studio.jpeg",
-    alt: "Mindful sound healing session",
+    alt: "Mindful sound healing and deep relaxation session at Sound Studio, Mudeford, Dorset — stress relief and mind reset",
     className: "col-span-1 row-span-1",
   },
 ];

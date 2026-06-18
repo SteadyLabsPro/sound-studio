@@ -28,7 +28,7 @@ export default function ServicesDetail() {
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/wellness-relaxtion-sound-studio.jpeg"
-                alt="Group sound bath session at Sound Studio"
+                alt="Group sound bath room with crystal singing bowls, gong and yoga mats at Sound Studio, Mudeford, Christchurch"
                 fill
                 className="object-cover object-[center_30%]"
                 sizes="(max-width: 1024px) 100vw, 33vw"
@@ -79,7 +79,7 @@ export default function ServicesDetail() {
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/sound-studio-healing-mudeford.jpeg"
-                alt="Private sound healing session with Sam at Sound Studio"
+                alt="Sam performing a private 1:1 sound healing session with crystal singing bowls at Sound Studio, Christchurch, Dorset"
                 fill
                 className="object-cover object-[center_25%]"
                 sizes="(max-width: 1024px) 100vw, 33vw"
@@ -130,7 +130,7 @@ export default function ServicesDetail() {
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/sound-healing-dorset.jpeg"
-                alt="Tarot and sound healing at golden hour in Dorset"
+                alt="Intuitive tarot reading and sound healing at golden hour near Mudeford, Christchurch, Dorset"
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw"
@@ -173,7 +173,7 @@ export default function ServicesDetail() {
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/sound-bath-chewton-glen-hampshire.jpeg"
-                alt="Corporate sound bath event"
+                alt="Corporate sound bath wellness event at Chewton Glen, Hampshire — Sound Studio corporate experiences"
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw"

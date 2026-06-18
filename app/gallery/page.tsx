@@ -4,9 +4,9 @@ import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Gallery - Sound Studio | Christchurch & Mudeford, Dorset",
+  title: "Gallery — Inside Sound Studio",
   description:
-    "A glimpse inside Sound Studio - sound baths, crystal singing bowls and immersive healing sessions in Mudeford, Christchurch, Dorset.",
+    "A glimpse inside Sound Studio — a serene wellness space in Mudeford, Christchurch offering immersive sound baths, crystal singing bowls and sound healing near Bournemouth, Dorset.",
 };
 
 export default function GalleryPage() {

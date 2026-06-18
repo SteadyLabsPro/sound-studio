@@ -16,27 +16,41 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sound Studio - Sound Baths & Sound Healing | Dorset",
+  metadataBase: new URL("https://soundstudio.steadylabs.pro"),
+  title: {
+    template: "%s | Sound Studio",
+    default: "Sound Studio — Sound Baths & Healing | Christchurch, Dorset",
+  },
   description:
-    "Immersive sound bath and sound healing experiences in Dorset. Group sound baths, private sessions, and tarot readings with Sam at Sound Studio.",
+    "Sound baths, sound healing and tarot readings in Mudeford, Christchurch, Dorset. Weekly group sessions and private 1:1 experiences for relaxation, stress relief and deep restoration. Near Bournemouth.",
   keywords: [
+    "sound bath Christchurch",
     "sound bath Dorset",
-    "sound healing",
-    "sound therapy Christchurch",
-    "Mudeford sound bath",
-    "tarot reading",
-    "wellbeing Dorset",
+    "sound healing Mudeford",
+    "sound therapy Bournemouth",
+    "sound bath near Bournemouth",
+    "crystal singing bowls Dorset",
+    "gong bath Christchurch",
+    "tarot reading Dorset",
+    "wellness Christchurch",
+    "relaxation therapy Dorset",
+    "stress relief Bournemouth",
+    "mind reset Dorset",
+    "wellbeing Mudeford",
+    "sound meditation Christchurch",
+    "accredited sound healer Dorset",
   ],
   openGraph: {
-    title: "Sound Studio - Immersive Sound Experiences",
-    description: "A calm space to reconnect through sound, stillness and self-discovery.",
+    title: "Sound Studio — Sound Baths & Healing | Christchurch, Dorset",
+    description:
+      "Sound baths, sound healing and tarot in Mudeford, Christchurch. A calm space to reconnect through sound, stillness and self-discovery.",
     type: "website",
     images: [
       {
         url: "/images/sound-studio-branding.jpeg",
         width: 1200,
         height: 630,
-        alt: "Sound Studio - Sound Baths & Healing, Mudeford Dorset",
+        alt: "Sound Studio — Sound Baths & Healing in Mudeford, Christchurch, Dorset",
       },
     ],
   },

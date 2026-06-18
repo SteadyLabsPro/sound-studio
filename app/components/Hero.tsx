@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative w-full h-[38vh] md:hidden order-first flex-shrink-0">
         <Image
           src="/images/sound-healing.jpeg"
-          alt="Crystal singing bowls on warm wood floor - Sound Studio"
+          alt="Crystal singing bowls arranged for a sound bath session at Sound Studio, Mudeford, Christchurch, Dorset"
           fill
           className="object-cover object-[center_58%]"
           style={{ transform: "scaleX(-1)" }}
@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="relative w-24 h-24 rounded-full overflow-hidden flex-shrink-0 ring-1 ring-gold/25">
             <Image
               src="/images/sam-sound-studio-christchurch-uk.jpeg"
-              alt="Sam - Sound Studio founder"
+              alt="Sam, accredited sound healer and founder of Sound Studio, Christchurch, Dorset"
               fill
               className="object-cover object-top"
               sizes="80px"
@@ -83,7 +83,7 @@ export default function Hero() {
       <div className="hidden md:block relative md:w-[60%] flex-shrink-0">
         <Image
           src="/images/sound-healing.jpeg"
-          alt="Crystal singing bowls on warm wood floor - Sound Studio"
+          alt="Crystal singing bowls arranged for a sound bath session at Sound Studio, Mudeford, Christchurch, Dorset"
           fill
           className="object-cover object-center"
           style={{ transform: "scaleX(-1)" }}

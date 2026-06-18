@@ -11,7 +11,7 @@ const services = [
       "Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths held regularly in our Mudeford studio.",
     detail: "60 - 75 min · Group",
     image: "/images/wellness-relaxtion-sound-studio.jpeg",
-    imageAlt: "Sound healing session space set up for a group sound bath",
+    imageAlt: "Group sound bath room with crystal singing bowls and candles at Sound Studio, Mudeford, Christchurch",
     objectPosition: "center 30%",
   },
   {
@@ -23,7 +23,7 @@ const services = [
       "A deeply personal one-to-one experience tailored to your wellbeing goals. Instruments are placed on and around the body for a full vibrational reset.",
     detail: "60 min · 1:1",
     image: "/images/sound-studio-healing-mudeford.jpeg",
-    imageAlt: "Group sound bath session at Sound Studio Mudeford",
+    imageAlt: "Sam performing private sound healing with crystal singing bowls at Sound Studio, Christchurch, Dorset",
     objectPosition: "center 45%",
   },
   {
@@ -35,7 +35,7 @@ const services = [
       "A reflective and intuitive tarot reading to gain clarity, perspective and insight. Available as a standalone session or paired with sound healing.",
     detail: "45 min · 1:1",
     image: "/images/sound-studio-mudeford-beach.jpeg",
-    imageAlt: "Sound bowl held at sunset on the beach at Mudeford",
+    imageAlt: "Crystal singing bowl at sunset on Mudeford beach, Christchurch, Dorset — Sound Studio tarot and sound healing",
     objectPosition: "center 60%",
   },
 ];

@@ -4,9 +4,9 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "About - Sound Studio | Christchurch & Mudeford, Dorset",
+  title: "About Sam — Accredited Sound Healer & Therapist",
   description:
-    "Meet Sam, the founder and sound practitioner behind Sound Studio - offering sound baths, private sound therapy and tarot in Mudeford, Christchurch, Dorset.",
+    "Meet Sam — accredited sound healer, therapist and founder of Sound Studio in Mudeford, Christchurch, Dorset. Passionate about guiding others to stillness, relaxation and self-discovery through sound healing near Bournemouth.",
 };
 
 export default function AboutPage() {

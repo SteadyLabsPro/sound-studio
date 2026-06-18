@@ -11,7 +11,7 @@ export default function About() {
             <div className="relative aspect-[3/4] overflow-hidden">
               <Image
                 src="/images/sam-sound-studio-christchurch-uk.jpeg"
-                alt="Sam - founder and sound practitioner at Sound Studio, Christchurch"
+                alt="Sam, accredited sound healer and founder of Sound Studio, Mudeford, Christchurch, Dorset"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, 50vw"
