@@ -1,6 +1,7 @@
 ﻿import Image from "next/image";
 
-export default function About() {
+export default function About({ isPage = false }: { isPage?: boolean }) {
+  const Heading = isPage ? "h1" : "h2";
   return (
     <section id="about" className="bg-cream py-24 md:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-10">
@@ -35,11 +36,11 @@ export default function About() {
               About
             </p>
 
-            <h2 className="font-display text-4xl md:text-5xl lg:text-[3.5rem] text-dark font-medium leading-tight mb-8">
+            <Heading className="font-display text-4xl md:text-5xl lg:text-[3.5rem] text-dark font-medium leading-tight mb-8">
               A space held
               <br />
               <em className="font-light italic">with care</em>
-            </h2>
+            </Heading>
 
             <div className="h-px w-10 bg-gold/60 mb-8" />
 
