@@ -16,7 +16,7 @@ export default function ContactPage() {
 
       <main>
         {/* ── Page header ── */}
-        <section className="bg-cream pt-32 md:pt-40 pb-16 md:pb-20 px-6 md:px-10">
+        <section className="bg-cream pt-32 md:pt-40 pb-6 md:pb-10 px-6 md:px-10">
           <div className="max-w-7xl mx-auto">
             <p className="font-sans text-[0.6rem] tracking-[0.35em] uppercase text-gold mb-6">
               Sound Studio
