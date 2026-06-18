@@ -17,7 +17,7 @@ export default function Footer() {
                 Sound Studio
               </span>
             </div>
-            <p className="font-sans text-sm leading-relaxed text-dark/50 max-w-xs mb-6">
+            <p className="font-sans text-sm md:text-base leading-relaxed text-dark/50 max-w-xs mb-6">
               Immersive sound experiences for modern wellbeing. A calm space to reconnect through sound, stillness and self-discovery.
             </p>
             <a
@@ -36,7 +36,7 @@ export default function Footer() {
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-dark/35 mb-5">
               Navigate
             </p>
-            <ul className="flex flex-col gap-3 font-sans text-sm text-dark/55">
+            <ul className="flex flex-col gap-3 font-sans text-sm md:text-base text-dark/55">
               {["Services", "About", "Gallery", "Contact"].map((item) => (
                 <li key={item}>
                   <a
@@ -55,7 +55,7 @@ export default function Footer() {
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-dark/35 mb-5">
               Find Us
             </p>
-            <address className="font-sans text-sm text-dark/55 not-italic flex flex-col gap-2">
+            <address className="font-sans text-sm md:text-base text-dark/55 not-italic flex flex-col gap-2">
               <span>Mudeford</span>
               <span>Christchurch</span>
               <span>Dorset</span>

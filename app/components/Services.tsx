@@ -56,7 +56,7 @@ export default function Services() {
               <em className="font-light italic">crafted for you</em>
             </h2>
           </div>
-          <p className="font-sans text-sm text-dark/50 max-w-xs leading-relaxed">
+          <p className="font-sans text-sm md:text-base text-dark/50 max-w-xs leading-relaxed">
             Every session is held with care, intention and a deep reverence for the healing power of sound.
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function Services() {
                 <h3 className="font-display text-2xl md:text-3xl text-dark font-light mb-3">
                   {service.title}
                 </h3>
-                <p className="font-sans text-sm text-dark/55 leading-relaxed mb-6 flex-1">
+                <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed mb-6 flex-1">
                   {service.description}
                 </p>
                 <div className="flex items-center justify-between pt-4 border-t border-dark/10">

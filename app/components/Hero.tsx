@@ -36,7 +36,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="font-sans text-[0.72rem] tracking-[0.28em] uppercase text-gold mb-7">
+        <p className="font-sans text-[0.72rem] md:text-sm tracking-[0.28em] uppercase text-gold mb-7">
           Sound Baths &nbsp;·&nbsp; Sound Healing &nbsp;·&nbsp; Tarot
         </p>
 
@@ -64,7 +64,7 @@ export default function Hero() {
           </div>
           <div className="flex-1 min-w-0">
             <p className="font-display text-2xl italic font-medium text-dark">Sam</p>
-            <p className="font-sans text-[0.6rem] tracking-[0.22em] uppercase text-dark/45 mt-0.5">
+            <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.22em] uppercase text-dark/45 mt-0.5">
               Sound Healer &amp; Therapist
             </p>
             <Link
