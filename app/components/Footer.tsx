@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -11,7 +12,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <WaveLogoLight />
+              <Image src="/images/sound-studio.png" alt="Sound Studio" width={52} height={32} className="h-14 w-auto mix-blend-multiply" />
               <span className="font-display text-lg tracking-[0.2em] uppercase text-dark font-medium">
                 Sound Studio
               </span>
@@ -92,35 +93,6 @@ export default function Footer() {
   );
 }
 
-function WaveLogoLight() {
-  return (
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 100 100"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="text-gold"
-    >
-      <circle cx="50" cy="44" r="22" stroke="currentColor" strokeWidth="2.5" fill="none" />
-      <path
-        d="M18 68 Q30 55 42 62 Q54 70 66 58 Q78 46 90 55"
-        stroke="currentColor"
-        strokeWidth="2.5"
-        fill="none"
-        strokeLinecap="round"
-      />
-      <path
-        d="M22 76 Q34 63 46 70 Q58 78 70 66 Q82 54 94 63"
-        stroke="currentColor"
-        strokeWidth="2"
-        fill="none"
-        strokeLinecap="round"
-        opacity="0.5"
-      />
-    </svg>
-  );
-}
 
 function InstagramIcon() {
   return (
