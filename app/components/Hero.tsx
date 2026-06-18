@@ -27,7 +27,7 @@ export default function Hero() {
         style={{ paddingLeft: "max(1.5rem, calc((100vw - 80rem) / 2 + 2.5rem))" }}
       >
 
-        <h1 className="font-display text-dark leading-[1.1] mb-7">
+        <h1 className="font-display text-dark leading-[1.1] mb-3">
           <span className="inline sm:block font-medium text-[2rem] sm:text-[3.2rem] md:text-[3.6rem] lg:text-[4.2rem] xl:text-[4.8rem] tracking-tight">
             Find Stillness
           </span>
