@@ -1,4 +1,5 @@
 ﻿import Image from "next/image";
+import Link from "next/link";
 
 const services = [
   {
@@ -63,9 +64,10 @@ export default function Services() {
         {/* Service cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service) => (
-            <article
+            <Link
               key={service.id}
-              className="group bg-cream overflow-hidden flex flex-col"
+              href={`/services#${service.id}`}
+              className="group bg-cream overflow-hidden flex flex-col cursor-pointer"
             >
               {/* Image */}
               <div className="relative h-64 md:h-72 overflow-hidden">
@@ -95,16 +97,13 @@ export default function Services() {
                   <span className="font-sans text-xs tracking-wider uppercase text-muted">
                     {service.detail}
                   </span>
-                  <a
-                    href={`/services#${service.id}`}
-                    className="font-sans text-xs tracking-widest uppercase text-dark hover:text-gold transition-colors flex items-center gap-2"
-                  >
+                  <span className="font-sans text-xs tracking-widest uppercase text-dark group-hover:text-gold transition-colors flex items-center gap-2">
                     View &amp; Book
                     <span className="inline-block w-4 h-px bg-current" />
-                  </a>
+                  </span>
                 </div>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </div>
