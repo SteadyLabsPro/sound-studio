@@ -73,12 +73,12 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Private Sound Healing & Tarot — dark */}
-      <section id="sound-therapy" className="bg-[#38342F] py-20 md:py-28 px-6 md:px-10">
+      {/* Private Sound Healing & Tarot — deep linen */}
+      <section id="sound-therapy" className="bg-[#D6C9B5] py-20 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
-            <h2 className="font-display text-4xl md:text-5xl text-cream font-light leading-tight">
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
               Private Sound<br /><em className="italic">&amp; Tarot</em>
             </h2>
             <div className="relative aspect-[3/2] overflow-hidden">
@@ -93,30 +93,30 @@ export default function ServicesDetail() {
           </div>
 
           <div className="flex flex-col gap-6 lg:pt-4">
-            <p className="font-sans text-sm text-cream/55 leading-relaxed max-w-prose">
+            <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
               A deeply personal experience combining intuitive tarot guidance with a restorative sound healing journey - designed to bring clarity, insight, and deep relaxation.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-cream/10 p-6">
-                <p className="font-display text-xl text-cream mb-1">1:1 Tarot &amp; Sound Healing</p>
-                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-cream/40 mb-3">Private Session</p>
-                <p className="font-sans text-xs text-cream/45 leading-relaxed mb-4">
+              <div className="bg-cream/60 p-6">
+                <p className="font-display text-xl text-dark mb-1">1:1 Tarot &amp; Sound Healing</p>
+                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-3">Private Session</p>
+                <p className="font-sans text-xs text-dark/45 leading-relaxed mb-4">
                   A personalised session combining intuitive tarot guidance with a restorative sound healing journey.
                 </p>
-                <p className="font-display text-3xl text-cream font-light">&pound;65</p>
+                <p className="font-display text-3xl text-dark font-light">&pound;65</p>
               </div>
-              <div className="bg-cream/10 p-6">
-                <p className="font-display text-xl text-cream mb-1">2:1 Tarot &amp; Sound Healing</p>
-                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-cream/40 mb-3">Shared Session</p>
-                <p className="font-sans text-xs text-cream/45 leading-relaxed mb-4">
+              <div className="bg-cream/60 p-6">
+                <p className="font-display text-xl text-dark mb-1">2:1 Tarot &amp; Sound Healing</p>
+                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-3">Shared Session</p>
+                <p className="font-sans text-xs text-dark/45 leading-relaxed mb-4">
                   Share the experience with a friend, partner, or family member in a supportive setting.
                 </p>
-                <p className="font-display text-3xl text-cream font-light">&pound;95</p>
+                <p className="font-display text-3xl text-dark font-light">&pound;95</p>
               </div>
             </div>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-7 py-3 border border-cream/30 text-cream text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-cream hover:text-dark transition-all duration-300 w-fit"
+              className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit"
             >
               Enquire to Book
             </Link>
