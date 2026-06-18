@@ -31,6 +31,18 @@ export const metadata: Metadata = {
     title: "Sound Studio - Immersive Sound Experiences",
     description: "A calm space to reconnect through sound, stillness and self-discovery.",
     type: "website",
+    images: [
+      {
+        url: "/images/sound-studio-branding.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Sound Studio - Sound Baths & Healing, Mudeford Dorset",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/images/sound-studio-branding.jpeg"],
   },
 };
 
