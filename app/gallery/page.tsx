@@ -14,8 +14,8 @@ export default function GalleryPage() {
     <>
       <Nav />
       <main>
-        <section className="bg-cream pt-32 md:pt-40 pb-6 md:pb-10 px-6 md:px-10 border-b border-dark/10">
-          <div className="max-w-7xl mx-auto">
+        <section className="bg-cream pt-32 md:pt-40 pb-6 md:pb-10 border-b border-dark/10">
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
             <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
               Sound Studio
             </p>

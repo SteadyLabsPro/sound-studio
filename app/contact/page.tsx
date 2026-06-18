@@ -16,8 +16,8 @@ export default function ContactPage() {
 
       <main>
         {/* ── Page header ── */}
-        <section className="bg-cream pt-32 md:pt-40 pb-6 md:pb-10 px-6 md:px-10">
-          <div className="max-w-7xl mx-auto">
+        <section className="bg-cream pt-32 md:pt-40 pb-6 md:pb-10">
+          <div className="max-w-7xl mx-auto px-6 md:px-10">
             <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
               Sound Studio
             </p>
@@ -29,8 +29,8 @@ export default function ContactPage() {
         </section>
 
         {/* ── Main contact section ── */}
-        <section className="bg-cream pb-24 md:pb-32 px-6 md:px-10">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20">
+        <section className="bg-cream pb-24 md:pb-32">
+          <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20">
 
             {/* Left - form */}
             <div>

@@ -6,8 +6,8 @@ export default function ServicesDetail() {
     <div>
 
       {/* Page header */}
-      <section className="bg-cream pt-24 md:pt-40 pb-10 md:pb-20 px-6 md:px-10 border-b border-dark/10">
-        <div className="max-w-7xl mx-auto">
+      <section className="bg-cream pt-24 md:pt-40 pb-10 md:pb-20 border-b border-dark/10">
+        <div className="max-w-7xl mx-auto px-6 md:px-10">
           <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
             Sound Studio
           </p>
@@ -18,8 +18,8 @@ export default function ServicesDetail() {
       </section>
 
       {/* Group Sound Baths — linen */}
-      <section id="sound-baths" className="bg-linen py-14 md:py-28 px-6 md:px-10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
+      <section id="sound-baths" className="bg-linen py-14 md:py-28">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
@@ -69,8 +69,8 @@ export default function ServicesDetail() {
       </section>
 
       {/* Private Sound Healing & Tarot — cream */}
-      <section id="sound-therapy" className="bg-cream py-14 md:py-28 px-6 md:px-10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
+      <section id="sound-therapy" className="bg-cream py-14 md:py-28">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
@@ -120,8 +120,8 @@ export default function ServicesDetail() {
       </section>
 
       {/* Tarot — deep linen */}
-      <section id="tarot" className="bg-[#D6C9B5] py-14 md:py-28 px-6 md:px-10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
+      <section id="tarot" className="bg-[#D6C9B5] py-14 md:py-28">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
@@ -163,8 +163,8 @@ export default function ServicesDetail() {
       </section>
 
       {/* Corporate — linen */}
-      <section id="corporate" className="bg-linen py-14 md:py-28 px-6 md:px-10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
+      <section id="corporate" className="bg-linen py-14 md:py-28">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
@@ -201,8 +201,8 @@ export default function ServicesDetail() {
       </section>
 
       {/* Footer note */}
-      <section className="bg-cream py-14 px-6 md:px-10">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
+      <section className="bg-cream py-14">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
           <div className="h-px flex-1 bg-dark/10 hidden md:block" />
           <p className="font-sans text-sm md:text-base text-dark/50 leading-relaxed max-w-lg">
             All private sessions take place in Sam&apos;s peaceful wellness pod in Mudeford - a calm and nurturing environment for healing, reflection, and reconnection. Questions?{" "}
