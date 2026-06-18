@@ -23,8 +23,8 @@ const images = [
     className: "col-span-1 row-span-1",
   },
   {
-    src: "/images/mindfull-healing-sound-studio.jpeg",
-    alt: "Mindful sound healing and deep relaxation session at Sound Studio, Mudeford, Dorset — stress relief and mind reset",
+    src: "/images/sound-bath-space.png",
+    alt: "Sound bath space at Sound Studio, Mudeford, Christchurch, Dorset — serene wellness room for group sound baths and healing",
     className: "col-span-1 row-span-1",
   },
 ];
