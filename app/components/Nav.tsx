@@ -33,7 +33,7 @@ export default function Nav() {
         {/* Desktop nav links */}
         <ul className="hidden md:flex items-center gap-8 text-sm tracking-widest uppercase font-sans">
           {[
-            { label: "Services", href: "/#services" },
+            { label: "Services", href: "/services" },
             { label: "About", href: "/about" },
             { label: "Gallery", href: "/gallery" },
             { label: "Contact", href: "/contact" },
@@ -75,7 +75,7 @@ export default function Nav() {
       <div className={`md:hidden bg-linen border-t border-dark/10 transition-all duration-300 overflow-hidden ${menuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"}`}>
         <ul className="px-6 py-6 flex flex-col gap-5 text-sm tracking-widest uppercase font-sans text-dark/70">
           {[
-            { label: "Services", href: "/#services" },
+            { label: "Services", href: "/services" },
             { label: "About", href: "/about" },
             { label: "Gallery", href: "/gallery" },
             { label: "Contact", href: "/contact" },

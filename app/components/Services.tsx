@@ -96,12 +96,10 @@ export default function Services() {
                     {service.detail}
                   </span>
                   <a
-                    href="https://bookwhen.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={`/services#${service.id}`}
                     className="font-sans text-xs tracking-widest uppercase text-dark hover:text-gold transition-colors flex items-center gap-2"
                   >
-                    Book
+                    View &amp; Book
                     <span className="inline-block w-4 h-px bg-current" />
                   </a>
                 </div>
