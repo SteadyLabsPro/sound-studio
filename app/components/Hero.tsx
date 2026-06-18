@@ -15,8 +15,6 @@ export default function Hero() {
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-[#8B6B4A]/10 mix-blend-multiply" />
-        <div className="absolute inset-x-0 bottom-0 h-[30%] bg-gradient-to-t from-cream/70 via-cream/18 to-transparent" />
       </div>
 
       {/* "€"€ Left "" text panel "€"€ */}
@@ -88,9 +86,6 @@ export default function Hero() {
           priority
           sizes="60vw"
         />
-        <div className="absolute inset-0 bg-[#8B6B4A]/12 mix-blend-multiply" />
-        {/* Wide feathered gradient "" starts semi-transparent so image bleeds through immediately */}
-        <div className="absolute inset-y-0 left-0 w-[55%] bg-gradient-to-r from-cream/70 via-cream/18 to-transparent" />
       </div>
 
     </section>
