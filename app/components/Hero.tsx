@@ -8,8 +8,8 @@ export default function Hero() {
       {/* "€"€ Mobile image "€"€ */}
       <div className="relative w-full h-[38vh] md:hidden order-first flex-shrink-0">
         <Image
-          src="/images/sound-bath-chewton-glen-hampshire.jpeg"
-          alt="Sam performing a sound bath by the pool at Chewton Glen, Hampshire — Sound Studio immersive sound healing experiences"
+          src="/images/sam-sound-studio.jpeg"
+          alt="Sam, sound healer and founder of Sound Studio, Mudeford, Christchurch, Dorset"
           fill
           className="object-cover object-[center_58%]"
           style={{}}
@@ -82,8 +82,8 @@ export default function Hero() {
       {/* "€"€ Right "" image panel (desktop only) "€"€ */}
       <div className="hidden md:block relative md:w-[60%] flex-shrink-0">
         <Image
-          src="/images/sound-bath-chewton-glen-hampshire.jpeg"
-          alt="Sam performing a sound bath by the pool at Chewton Glen, Hampshire — Sound Studio immersive sound healing experiences"
+          src="/images/sam-sound-studio.jpeg"
+          alt="Sam, sound healer and founder of Sound Studio, Mudeford, Christchurch, Dorset"
           fill
           className="object-cover object-center"
           style={{}}
