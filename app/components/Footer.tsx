@@ -4,7 +4,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="bg-[#38342F] text-cream/70">
+    <footer id="contact" className="bg-[#D6C9B5] text-dark/70">
       {/* Main footer */}
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
@@ -12,11 +12,11 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <WaveLogoLight />
-              <span className="font-display text-lg tracking-[0.2em] uppercase text-cream font-medium">
+              <span className="font-display text-lg tracking-[0.2em] uppercase text-dark font-medium">
                 Sound Studio
               </span>
             </div>
-            <p className="font-sans text-sm leading-relaxed text-cream/50 max-w-xs mb-6">
+            <p className="font-sans text-sm leading-relaxed text-dark/50 max-w-xs mb-6">
               Immersive sound experiences for modern wellbeing. A calm space to reconnect through sound, stillness and self-discovery.
             </p>
             <a
@@ -32,15 +32,15 @@ export default function Footer() {
 
           {/* Links */}
           <div>
-            <p className="font-sans text-xs tracking-[0.25em] uppercase text-cream/30 mb-5">
+            <p className="font-sans text-xs tracking-[0.25em] uppercase text-dark/35 mb-5">
               Navigate
             </p>
-            <ul className="flex flex-col gap-3 font-sans text-sm text-cream/55">
+            <ul className="flex flex-col gap-3 font-sans text-sm text-dark/55">
               {["Services", "About", "Gallery", "Contact"].map((item) => (
                 <li key={item}>
                   <a
                     href={`#${item.toLowerCase()}`}
-                    className="hover:text-cream transition-colors"
+                    className="hover:text-dark transition-colors"
                   >
                     {item}
                   </a>
@@ -51,16 +51,16 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <p className="font-sans text-xs tracking-[0.25em] uppercase text-cream/30 mb-5">
+            <p className="font-sans text-xs tracking-[0.25em] uppercase text-dark/35 mb-5">
               Find Us
             </p>
-            <address className="font-sans text-sm text-cream/55 not-italic flex flex-col gap-2">
+            <address className="font-sans text-sm text-dark/55 not-italic flex flex-col gap-2">
               <span>Mudeford</span>
               <span>Christchurch</span>
               <span>Dorset</span>
               <a
                 href="mailto:hello@soundstudio.co.uk"
-                className="mt-3 hover:text-cream transition-colors"
+                className="mt-3 hover:text-dark transition-colors"
               >
                 hello@soundstudio.co.uk
               </a>
@@ -70,18 +70,18 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-cream/10">
+      <div className="border-t border-dark/10">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="font-sans text-xs text-cream/25">
+          <p className="font-sans text-xs text-dark/30">
             © {year} Sound Studio. All rights reserved.
           </p>
-          <p className="font-sans text-xs text-cream/20">
+          <p className="font-sans text-xs text-dark/25">
             Site by{" "}
             <a
               href="https://steadylabs.co"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-cream/40 transition-colors"
+              className="hover:text-dark/50 transition-colors"
             >
               Steady Labs
             </a>
