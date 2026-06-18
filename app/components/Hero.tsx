@@ -83,6 +83,7 @@ export default function Hero() {
           alt="Sam, sound healer and founder of Sound Studio, Mudeford, Christchurch, Dorset"
           fill
           className="object-cover object-[center_15%]"
+          style={{ transform: "scaleX(-1)" }}
           priority
           sizes="60vw"
         />
