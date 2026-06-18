@@ -11,14 +11,9 @@ export default function ServicesDetail() {
           <p className="font-sans text-[0.6rem] tracking-[0.35em] uppercase text-gold mb-6">
             Sound Studio
           </p>
-          <h1 className="font-display font-light text-dark text-5xl md:text-7xl leading-tight mb-4">
-            Sessions &amp;
-            <br />
-            <em className="italic">Pricing</em>
+          <h1 className="font-display font-light text-dark text-5xl md:text-7xl leading-tight">
+            Sessions &amp; <em className="italic">Pricing</em>
           </h1>
-          <p className="font-sans text-sm text-dark/50 mt-6 max-w-md leading-relaxed">
-            All sessions are held with care and intention. Private sessions take place in Sam&apos;s peaceful wellness pod in Mudeford.
-          </p>
         </div>
       </section>
 
