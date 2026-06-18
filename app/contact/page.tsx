@@ -18,10 +18,10 @@ export default function ContactPage() {
         {/* ── Page header ── */}
         <section className="bg-cream pt-32 md:pt-40 pb-6 md:pb-10 px-6 md:px-10">
           <div className="max-w-7xl mx-auto">
-            <p className="font-sans text-[0.6rem] tracking-[0.35em] uppercase text-gold mb-6">
+            <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
               Sound Studio
             </p>
-            <h1 className="font-display font-medium text-dark text-5xl md:text-7xl leading-tight mb-6">
+            <h1 className="font-display font-medium text-dark text-5xl md:text-[4.2rem] xl:text-[4.8rem] leading-tight mb-6">
               Get in <em className="font-light italic">Touch</em>
             </h1>
             <div className="h-px w-10 bg-gold/40" />

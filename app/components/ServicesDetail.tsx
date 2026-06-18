@@ -8,10 +8,10 @@ export default function ServicesDetail() {
       {/* Page header */}
       <section className="bg-cream pt-24 md:pt-40 pb-10 md:pb-20 px-6 md:px-10 border-b border-dark/10">
         <div className="max-w-7xl mx-auto">
-          <p className="font-sans text-[0.6rem] tracking-[0.35em] uppercase text-gold mb-6">
+          <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
             Sound Studio
           </p>
-          <h1 className="font-display font-medium text-dark text-5xl md:text-7xl leading-tight">
+          <h1 className="font-display font-medium text-dark text-5xl md:text-[4.2rem] xl:text-[4.8rem] leading-tight">
             Sessions &amp; <em className="font-light italic">Pricing</em>
           </h1>
         </div>
