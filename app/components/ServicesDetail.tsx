@@ -11,8 +11,8 @@ export default function ServicesDetail() {
           <p className="font-sans text-[0.6rem] tracking-[0.35em] uppercase text-gold mb-6">
             Sound Studio
           </p>
-          <h1 className="font-display font-light text-dark text-5xl md:text-7xl leading-tight">
-            Sessions &amp; <em className="italic">Pricing</em>
+          <h1 className="font-display font-medium text-dark text-5xl md:text-7xl leading-tight">
+            Sessions &amp; <em className="font-light italic">Pricing</em>
           </h1>
         </div>
       </section>
@@ -22,8 +22,8 @@ export default function ServicesDetail() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
-            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
-              Group<br /><em className="italic">Sound Baths</em>
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
+              Group<br /><em className="font-light italic">Sound Baths</em>
             </h2>
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image
@@ -73,8 +73,8 @@ export default function ServicesDetail() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
-            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
-              Private Sound<br /><em className="italic">&amp; Tarot</em>
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
+              Private Sound<br /><em className="font-light italic">&amp; Tarot</em>
             </h2>
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image
@@ -124,8 +124,8 @@ export default function ServicesDetail() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
-            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
-              Tarot<br /><em className="italic">Readings</em>
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
+              Tarot<br /><em className="font-light italic">Readings</em>
             </h2>
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image
@@ -167,8 +167,8 @@ export default function ServicesDetail() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
-            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
-              Corporate<br /><em className="italic">&amp; Events</em>
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
+              Corporate<br /><em className="font-light italic">&amp; Events</em>
             </h2>
             <div className="relative aspect-[3/2] overflow-hidden">
               <Image

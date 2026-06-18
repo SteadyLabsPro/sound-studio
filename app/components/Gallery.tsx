@@ -39,8 +39,8 @@ export default function Gallery() {
             <p className="text-xs tracking-[0.3em] uppercase text-gold font-sans mb-4">
               The Experience
             </p>
-            <h2 className="font-display text-4xl md:text-5xl text-dark font-light">
-              Inside the Studio
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-medium">
+              Inside the <em className="font-light italic">Studio</em>
             </h2>
           </div>
           <a

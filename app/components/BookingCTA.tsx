@@ -20,10 +20,10 @@ export default function BookingCTA() {
         <p className="text-xs tracking-[0.35em] uppercase text-gold font-sans mb-6">
           Ready to Begin?
         </p>
-        <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-cream font-light leading-tight mb-6">
+        <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-cream font-medium leading-tight mb-6">
           Your next session
           <br />
-          <em className="italic text-gold">awaits you</em>
+          <em className="font-light italic text-gold">awaits you</em>
         </h2>
         <div className="h-px w-12 bg-gold/50 mx-auto mb-8" />
         <p className="font-sans text-base text-cream/55 leading-relaxed max-w-md mx-auto mb-12">

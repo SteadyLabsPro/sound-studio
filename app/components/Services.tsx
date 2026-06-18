@@ -49,10 +49,10 @@ export default function Services() {
             <p className="text-xs tracking-[0.3em] uppercase text-gold font-sans mb-4">
               What We Offer
             </p>
-            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-dark font-light">
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-dark font-medium">
               Experiences
               <br />
-              <em className="italic">crafted for you</em>
+              <em className="font-light italic">crafted for you</em>
             </h2>
           </div>
           <p className="font-sans text-sm text-dark/50 max-w-xs leading-relaxed">

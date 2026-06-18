@@ -35,10 +35,10 @@ export default function About() {
               About
             </p>
 
-            <h2 className="font-display text-4xl md:text-5xl lg:text-[3.5rem] text-dark font-light leading-tight mb-8">
+            <h2 className="font-display text-4xl md:text-5xl lg:text-[3.5rem] text-dark font-medium leading-tight mb-8">
               A space held
               <br />
-              <em className="italic">with care</em>
+              <em className="font-light italic">with care</em>
             </h2>
 
             <div className="h-px w-10 bg-gold/60 mb-8" />
