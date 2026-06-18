@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function ServicesDetail() {
   return (
-    <div className="bg-cream">
+    <div>
 
       {/* Page header */}
-      <section className="pt-32 md:pt-40 pb-16 md:pb-20 px-6 md:px-10 border-b border-dark/10">
+      <section className="bg-cream pt-32 md:pt-40 pb-16 md:pb-20 px-6 md:px-10 border-b border-dark/10">
         <div className="max-w-7xl mx-auto">
           <p className="font-sans text-[0.6rem] tracking-[0.35em] uppercase text-gold mb-6">
             Sound Studio
@@ -22,25 +22,15 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Full-width banner image */}
-      <div className="relative w-full h-[45vh] md:h-[55vh] overflow-hidden">
-        <Image
-          src="/images/sound-healing.jpeg"
-          alt="Crystal singing bowls - Sound Studio"
-          fill
-          className="object-cover object-center"
-          sizes="100vw"
-          priority
-        />
-        <div className="absolute inset-0 bg-dark/10" />
-      </div>
+      {/* Group Sound Baths — cream */}
+      <section id="sound-baths" className="bg-cream py-20 md:py-28 px-6 md:px-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
-      {/* Group Sound Baths */}
-      <section id="sound-baths" className="py-20 md:py-28 px-6 md:px-10 border-b border-dark/10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12 lg:gap-20">
-
-          <div className="flex flex-col gap-6">
-            <div className="relative aspect-[3/4] overflow-hidden">
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
+              Group<br /><em className="italic">Sound Baths</em>
+            </h2>
+            <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/wellness-relaxtion-sound-studio.jpeg"
                 alt="Group sound bath session at Sound Studio"
@@ -49,28 +39,21 @@ export default function ServicesDetail() {
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>
-            <div>
-              <p className="font-sans text-[0.6rem] tracking-[0.3em] uppercase text-gold mb-3">01</p>
-              <h2 className="font-display text-3xl md:text-4xl text-dark font-light leading-tight">
-                Group<br /><em className="italic">Sound Baths</em>
-              </h2>
-            </div>
           </div>
 
           <div className="flex flex-col gap-6 lg:pt-4">
             <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
               Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths are held regularly - all are welcome, no experience necessary.
             </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-              <div className="bg-linen/50 p-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="bg-linen p-6">
                 <p className="font-display text-xl text-dark mb-1">1 Hour Sound Bath</p>
                 <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
                 <p className="font-display text-3xl text-dark font-light">
                   &pound;20 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
                 </p>
               </div>
-              <div className="bg-linen/50 p-6">
+              <div className="bg-linen p-6">
                 <p className="font-display text-xl text-dark mb-1">90 Minute Sound Bath</p>
                 <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
                 <p className="font-display text-3xl text-dark font-light">
@@ -78,12 +61,11 @@ export default function ServicesDetail() {
                 </p>
               </div>
             </div>
-
             <a
               href="https://bookwhen.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit mt-2"
+              className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
             >
               Book a Sound Bath
             </a>
@@ -91,12 +73,15 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Private Sound Healing & Tarot */}
-      <section id="sound-therapy" className="py-20 md:py-28 px-6 md:px-10 border-b border-dark/10 bg-linen/30">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12 lg:gap-20">
+      {/* Private Sound Healing & Tarot — dark */}
+      <section id="sound-therapy" className="bg-[#38342F] py-20 md:py-28 px-6 md:px-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
-          <div className="flex flex-col gap-6">
-            <div className="relative aspect-[3/4] overflow-hidden">
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-4xl md:text-5xl text-cream font-light leading-tight">
+              Private Sound<br /><em className="italic">&amp; Tarot</em>
+            </h2>
+            <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/sound-studio-healing-mudeford.jpeg"
                 alt="Private sound healing session with Sam at Sound Studio"
@@ -105,41 +90,33 @@ export default function ServicesDetail() {
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>
-            <div>
-              <p className="font-sans text-[0.6rem] tracking-[0.3em] uppercase text-gold mb-3">02</p>
-              <h2 className="font-display text-3xl md:text-4xl text-dark font-light leading-tight">
-                Private Sound<br /><em className="italic">&amp; Tarot</em>
-              </h2>
-            </div>
           </div>
 
           <div className="flex flex-col gap-6 lg:pt-4">
-            <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
+            <p className="font-sans text-sm text-cream/55 leading-relaxed max-w-prose">
               A deeply personal experience combining intuitive tarot guidance with a restorative sound healing journey - designed to bring clarity, insight, and deep relaxation.
             </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-              <div className="bg-cream p-6">
-                <p className="font-display text-xl text-dark mb-1">1:1 Tarot &amp; Sound Healing</p>
-                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-3">Private Session</p>
-                <p className="font-sans text-xs text-dark/45 leading-relaxed mb-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="bg-cream/10 p-6">
+                <p className="font-display text-xl text-cream mb-1">1:1 Tarot &amp; Sound Healing</p>
+                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-cream/40 mb-3">Private Session</p>
+                <p className="font-sans text-xs text-cream/45 leading-relaxed mb-4">
                   A personalised session combining intuitive tarot guidance with a restorative sound healing journey.
                 </p>
-                <p className="font-display text-3xl text-dark font-light">&pound;65</p>
+                <p className="font-display text-3xl text-cream font-light">&pound;65</p>
               </div>
-              <div className="bg-cream p-6">
-                <p className="font-display text-xl text-dark mb-1">2:1 Tarot &amp; Sound Healing</p>
-                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-3">Shared Session</p>
-                <p className="font-sans text-xs text-dark/45 leading-relaxed mb-4">
+              <div className="bg-cream/10 p-6">
+                <p className="font-display text-xl text-cream mb-1">2:1 Tarot &amp; Sound Healing</p>
+                <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-cream/40 mb-3">Shared Session</p>
+                <p className="font-sans text-xs text-cream/45 leading-relaxed mb-4">
                   Share the experience with a friend, partner, or family member in a supportive setting.
                 </p>
-                <p className="font-display text-3xl text-dark font-light">&pound;95</p>
+                <p className="font-display text-3xl text-cream font-light">&pound;95</p>
               </div>
             </div>
-
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit mt-2"
+              className="inline-flex items-center justify-center px-7 py-3 border border-cream/30 text-cream text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-cream hover:text-dark transition-all duration-300 w-fit"
             >
               Enquire to Book
             </Link>
@@ -147,12 +124,15 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Tarot */}
-      <section id="tarot" className="py-20 md:py-28 px-6 md:px-10 border-b border-dark/10">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12 lg:gap-20">
+      {/* Tarot — linen */}
+      <section id="tarot" className="bg-linen py-20 md:py-28 px-6 md:px-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
-          <div className="flex flex-col gap-6">
-            <div className="relative aspect-[3/4] overflow-hidden">
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
+              Tarot<br /><em className="italic">Readings</em>
+            </h2>
+            <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/sound-healing-dorset.jpeg"
                 alt="Tarot and sound healing at golden hour in Dorset"
@@ -161,21 +141,14 @@ export default function ServicesDetail() {
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>
-            <div>
-              <p className="font-sans text-[0.6rem] tracking-[0.3em] uppercase text-gold mb-3">03</p>
-              <h2 className="font-display text-3xl md:text-4xl text-dark font-light leading-tight">
-                Tarot<br /><em className="italic">Readings</em>
-              </h2>
-            </div>
           </div>
 
           <div className="flex flex-col gap-6 lg:pt-4">
             <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
               Gain clarity, guidance, and insight through an intuitive tarot reading tailored to your current situation and intentions.
             </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-              <div className="bg-linen/50 p-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="bg-cream p-6">
                 <p className="font-display text-xl text-dark mb-1">Tarot Reading</p>
                 <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-3">1:1 Session</p>
                 <p className="font-sans text-xs text-dark/45 leading-relaxed mb-4">
@@ -184,10 +157,9 @@ export default function ServicesDetail() {
                 <p className="font-display text-3xl text-dark font-light">&pound;40</p>
               </div>
             </div>
-
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit mt-2"
+              className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit"
             >
               Enquire to Book
             </Link>
@@ -195,12 +167,15 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Corporate */}
-      <section id="corporate" className="py-20 md:py-28 px-6 md:px-10 border-b border-dark/10 bg-linen/30">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12 lg:gap-20">
+      {/* Corporate — cream */}
+      <section id="corporate" className="bg-cream py-20 md:py-28 px-6 md:px-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
-          <div className="flex flex-col gap-6">
-            <div className="relative aspect-[3/4] overflow-hidden">
+          <div className="flex flex-col gap-5">
+            <h2 className="font-display text-4xl md:text-5xl text-dark font-light leading-tight">
+              Corporate<br /><em className="italic">&amp; Events</em>
+            </h2>
+            <div className="relative aspect-[3/2] overflow-hidden">
               <Image
                 src="/images/sound-bath-chewton-glen-hampshire.jpeg"
                 alt="Corporate sound bath event"
@@ -209,28 +184,20 @@ export default function ServicesDetail() {
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>
-            <div>
-              <p className="font-sans text-[0.6rem] tracking-[0.3em] uppercase text-gold mb-3">04</p>
-              <h2 className="font-display text-3xl md:text-4xl text-dark font-light leading-tight">
-                Corporate<br /><em className="italic">&amp; Events</em>
-              </h2>
-            </div>
           </div>
 
           <div className="flex flex-col gap-6 lg:pt-4">
             <p className="font-sans text-sm text-dark/55 leading-relaxed max-w-prose">
               Sam is available to bring sound healing to your corporate event, wellness day, or team building session. Whether you&apos;re looking to reduce stress, improve focus, or offer your team something genuinely restorative - Sam creates a tailored experience to suit your group and setting.
             </p>
-
-            <div className="bg-cream p-6 w-fit">
+            <div className="bg-linen p-6 w-fit">
               <p className="font-display text-xl text-dark mb-1">Bespoke Event</p>
               <p className="font-sans text-[0.6rem] tracking-[0.2em] uppercase text-dark/40 mb-4">Corporate &amp; Private Events</p>
               <p className="font-display text-3xl text-dark font-light">Price on Application</p>
             </div>
-
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit mt-2"
+              className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
             >
               Get in Touch
             </Link>
@@ -238,14 +205,14 @@ export default function ServicesDetail() {
         </div>
       </section>
 
-      {/* Private sessions note */}
-      <section className="py-16 px-6 md:px-10">
+      {/* Footer note */}
+      <section className="bg-linen py-14 px-6 md:px-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
           <div className="h-px flex-1 bg-dark/10 hidden md:block" />
           <p className="font-sans text-sm text-dark/50 leading-relaxed max-w-lg">
-            All private sessions take place in Sam&apos;s peaceful wellness pod in Mudeford - a calm and nurturing environment for healing, reflection, and reconnection. If you have any questions or would like to book a session, please{" "}
+            All private sessions take place in Sam&apos;s peaceful wellness pod in Mudeford - a calm and nurturing environment for healing, reflection, and reconnection. Questions?{" "}
             <Link href="/contact" className="text-dark underline underline-offset-4 hover:text-gold transition-colors">
-              get in touch
+              Get in touch
             </Link>.
           </p>
           <div className="h-px flex-1 bg-dark/10 hidden md:block" />
