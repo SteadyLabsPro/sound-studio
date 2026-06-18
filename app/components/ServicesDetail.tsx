@@ -6,7 +6,7 @@ export default function ServicesDetail() {
     <div>
 
       {/* Page header */}
-      <section className="bg-cream pt-32 md:pt-40 pb-16 md:pb-20 px-6 md:px-10 border-b border-dark/10">
+      <section className="bg-cream pt-24 md:pt-40 pb-10 md:pb-20 px-6 md:px-10 border-b border-dark/10">
         <div className="max-w-7xl mx-auto">
           <p className="font-sans text-[0.6rem] tracking-[0.35em] uppercase text-gold mb-6">
             Sound Studio
@@ -18,7 +18,7 @@ export default function ServicesDetail() {
       </section>
 
       {/* Group Sound Baths — linen */}
-      <section id="sound-baths" className="bg-linen py-20 md:py-28 px-6 md:px-10">
+      <section id="sound-baths" className="bg-linen py-14 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
@@ -69,7 +69,7 @@ export default function ServicesDetail() {
       </section>
 
       {/* Private Sound Healing & Tarot — cream */}
-      <section id="sound-therapy" className="bg-cream py-20 md:py-28 px-6 md:px-10">
+      <section id="sound-therapy" className="bg-cream py-14 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
@@ -120,7 +120,7 @@ export default function ServicesDetail() {
       </section>
 
       {/* Tarot — deep linen */}
-      <section id="tarot" className="bg-[#D6C9B5] py-20 md:py-28 px-6 md:px-10">
+      <section id="tarot" className="bg-[#D6C9B5] py-14 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
@@ -163,7 +163,7 @@ export default function ServicesDetail() {
       </section>
 
       {/* Corporate — linen */}
-      <section id="corporate" className="bg-linen py-20 md:py-28 px-6 md:px-10">
+      <section id="corporate" className="bg-linen py-14 md:py-28 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-10 lg:gap-20">
 
           <div className="flex flex-col gap-5">
