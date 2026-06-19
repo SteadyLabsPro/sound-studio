@@ -73,9 +73,14 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-dark/10">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="font-sans text-xs text-dark/30">
-            © {year} Sound Studio. All rights reserved.
-          </p>
+          <div className="flex items-center gap-5">
+            <p className="font-sans text-xs text-dark/30">
+              © {year} Sound Studio. All rights reserved.
+            </p>
+            <Link href="/gdpr" className="font-sans text-xs text-dark/30 hover:text-dark/50 transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
           <p className="font-sans text-xs text-dark/25">
             Site by{" "}
             <a
