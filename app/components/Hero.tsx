@@ -6,12 +6,13 @@ export default function Hero() {
     <section className="relative min-h-[88vh] bg-cream flex flex-col md:flex-row overflow-hidden">
 
       {/* "€"€ Mobile image "€"€ */}
-      <div className="relative w-full h-[50vh] mt-[3.25rem] md:mt-0 md:hidden order-first flex-shrink-0">
+      <div className="relative w-full h-[47vh] mt-[3.25rem] md:mt-0 md:hidden order-first flex-shrink-0">
         <Image
           src="/images/sam-sound-studio.jpeg"
           alt="Sam, sound healer and founder of Sound Studio, Mudeford, Christchurch, Dorset"
           fill
-          className="object-cover object-top"
+          className="object-cover"
+          style={{ objectPosition: "50% 8%" }}
           priority
           sizes="100vw"
         />
