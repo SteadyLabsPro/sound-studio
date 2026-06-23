@@ -127,7 +127,7 @@ export default function ServicesDetail() {
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
               Tarot<br /><em className="font-light italic">Readings</em>
             </h2>
-            <div className="relative aspect-[3/4] overflow-hidden">
+            <div className="relative aspect-[9/8] overflow-hidden">
               <Image
                 src="/images/tarot-reading-mudeford.jpeg"
                 alt="Tarot cards laid out during an intuitive reading session at Sound Studio, Mudeford, Dorset"
