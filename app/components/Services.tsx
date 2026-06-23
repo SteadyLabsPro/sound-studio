@@ -34,9 +34,9 @@ const services = [
     description:
       "A reflective and intuitive tarot reading to gain clarity, perspective and insight. Available as a standalone session or paired with sound healing.",
     detail: "45 min · 1:1",
-    image: "/images/sound-studio-mudeford-beach.jpeg",
-    imageAlt: "Crystal singing bowl at sunset on Mudeford beach, Christchurch, Dorset — Sound Studio tarot and sound healing",
-    objectPosition: "center 60%",
+    image: "/images/tarot-reading-christchurch-uk.jpeg",
+    imageAlt: "Tarot cards laid out during an intuitive reading session at Sound Studio, Christchurch, Dorset",
+    objectPosition: "center 65%",
   },
 ];
 
