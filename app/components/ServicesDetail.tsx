@@ -89,8 +89,15 @@ export default function ServicesDetail() {
 
           <div className="flex flex-col gap-6 lg:pt-4">
             <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed max-w-prose">
-              A deeply personal experience combining intuitive tarot guidance with a restorative sound healing journey - designed to bring clarity, insight, and deep relaxation.
+              Choose from a deeply restorative private soundbath, or combine intuitive tarot guidance with sound healing for a truly personal experience.
             </p>
+            <div className="bg-linen p-6">
+              <p className="font-display text-xl text-dark mb-1">1:1 Soundbath Experience</p>
+              <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-3">Private Session &middot; 60 Min</p>
+              <p className="font-sans text-xs md:text-sm text-dark/45 leading-relaxed">
+                Enjoy a private 60-minute sound healing session in our immersive sound pod. Begin with a soothing herbal tea before relaxing into a personalised soundbath with crystal singing bowls and gentle on-body bowl therapy. Designed to calm the nervous system, ease tension, restore balance, and leave you feeling deeply relaxed and renewed.
+              </p>
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-linen p-6">
                 <p className="font-display text-xl text-dark mb-1">1:1 Tarot &amp; Sound Healing</p>
