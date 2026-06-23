@@ -185,10 +185,24 @@ export default function ServicesDetail() {
             <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed max-w-prose">
               Sam is available to bring sound healing to your corporate event, wellness day, or team building session. Whether you&apos;re looking to reduce stress, improve focus, or offer your team something genuinely restorative - Sam creates a tailored experience to suit your group and setting.
             </p>
-            <div className="bg-cream p-6 w-fit">
-              <p className="font-display text-xl text-dark mb-1">Bespoke Event</p>
-              <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Corporate &amp; Private Events</p>
-              <p className="font-display text-3xl text-dark font-light">Price on Application</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="bg-cream p-6">
+                <p className="font-display text-xl text-dark mb-1">Monthly Floating Soundbath</p>
+                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Chewton Glen Hotel &amp; Spa</p>
+                <a
+                  href="https://www.chewtonglen.com/?gad_source=1&gad_campaignid=672875009&gbraid=0AAAAAD5eJHHZ9AhGvpNvYzWr-kob2vCys&gclid=CjwKCAjw3ejRBhAdEiwADkqPn34Z9ajZdylHnABk8VPZ4iBdmo-XfXhx88gjpGEcLIJ7Hn2HOqwTAhoCsTQQAvD_BwE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-5 py-3 border border-dark/30 text-dark text-[0.6rem] md:text-xs tracking-[0.18em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit"
+                >
+                  Contact Chewton Glen
+                </a>
+              </div>
+              <div className="bg-cream p-6">
+                <p className="font-display text-xl text-dark mb-1">Bespoke Event</p>
+                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Corporate &amp; Private Events</p>
+                <p className="font-display text-3xl text-dark font-light">Price on Application</p>
+              </div>
             </div>
             <Link
               href="/contact"
