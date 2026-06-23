@@ -36,7 +36,7 @@ const services = [
     detail: "45 min · 1:1",
     image: "/images/tarot-reading-christchurch-uk.jpeg",
     imageAlt: "Tarot cards laid out during an intuitive reading session at Sound Studio, Christchurch, Dorset",
-    objectPosition: "center 65%",
+    objectPosition: "center 85%",
   },
 ];
 
