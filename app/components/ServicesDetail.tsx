@@ -76,12 +76,12 @@ export default function ServicesDetail() {
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
               Private Sound<br /><em className="font-light italic">&amp; Tarot</em>
             </h2>
-            <div className="relative aspect-[3/2] overflow-hidden">
+            <div className="relative aspect-[3/4] overflow-hidden">
               <Image
-                src="/images/sound-studio-healing-mudeford.jpeg"
-                alt="Sam performing a private 1:1 sound healing session with crystal singing bowls at Sound Studio, Christchurch, Dorset"
+                src="/images/private-sound-bath.jpeg"
+                alt="Sam performing a private 1:1 sound healing session with a client at Sound Studio, Christchurch, Dorset"
                 fill
-                className="object-cover object-[center_25%]"
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw"
               />
             </div>
@@ -127,10 +127,10 @@ export default function ServicesDetail() {
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
               Tarot<br /><em className="font-light italic">Readings</em>
             </h2>
-            <div className="relative aspect-[3/2] overflow-hidden">
+            <div className="relative aspect-[3/4] overflow-hidden">
               <Image
-                src="/images/sound-healing-dorset.jpeg"
-                alt="Intuitive tarot reading and sound healing at golden hour near Mudeford, Christchurch, Dorset"
+                src="/images/tarot-reading-mudeford.jpeg"
+                alt="Tarot cards laid out during an intuitive reading session at Sound Studio, Mudeford, Dorset"
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 33vw"
