@@ -22,8 +22,8 @@ const services = [
     description:
       "A deeply personal one-to-one experience tailored to your wellbeing goals. Instruments are placed on and around the body for a full vibrational reset.",
     detail: "60 min · 1:1",
-    image: "/images/sound-studio-healing-mudeford.jpeg",
-    imageAlt: "Sam performing private sound healing with crystal singing bowls at Sound Studio, Christchurch, Dorset",
+    image: "/images/private-sound-bath.jpeg",
+    imageAlt: "Sam performing a private 1:1 sound healing session with a client at Sound Studio, Christchurch, Dorset",
     objectPosition: "center 45%",
   },
   {
