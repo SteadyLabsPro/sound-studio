@@ -76,7 +76,7 @@ export default function ServicesDetail() {
             <h2 className="font-display text-4xl md:text-5xl text-dark font-medium leading-tight">
               Private Sound<br /><em className="font-light italic">&amp; Tarot</em>
             </h2>
-            <div className="relative aspect-[6/5] overflow-hidden">
+            <div className="relative aspect-[6/5] lg:aspect-[3/4] overflow-hidden">
               <Image
                 src="/images/private-sound-bath.jpeg"
                 alt="Sam performing a private 1:1 sound healing session with a client at Sound Studio, Christchurch, Dorset"
