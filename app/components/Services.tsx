@@ -110,7 +110,7 @@ export default function Services() {
                     {service.detail}
                   </span>
                   <span className="font-sans text-xs tracking-widest uppercase text-dark group-hover:text-gold transition-colors flex items-center gap-2">
-                    View &amp; Book
+                    View
                     <span className="inline-block w-4 h-px bg-current" />
                   </span>
                 </div>
