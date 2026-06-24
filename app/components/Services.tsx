@@ -8,7 +8,7 @@ const services = [
     title: "Sound Baths",
     subtitle: "Group Sessions",
     description:
-      "Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths held regularly in our Mudeford studio.",
+      "Gentle group sound healing in a welcoming space.",
     detail: "60 - 75 min · Group",
     image: "/images/wellness-relaxtion-sound-studio.jpeg",
     imageAlt: "Group sound bath room with crystal singing bowls and candles at Sound Studio, Mudeford, Christchurch",
