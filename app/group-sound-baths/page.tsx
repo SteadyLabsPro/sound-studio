@@ -19,10 +19,10 @@ export default function GroupSoundBathsPage() {
         {/* Hero — text left, image right on desktop */}
         <section className="bg-cream border-b border-dark/10 overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-16">
 
               {/* Left: text + CTAs — below image on mobile, left on desktop */}
-              <div className="pt-4 lg:pt-40 pb-10 lg:pb-16 flex flex-col justify-center order-2 lg:order-1">
+              <div className="pt-2 lg:pt-40 pb-10 lg:pb-16 flex flex-col justify-center order-2 lg:order-1">
                 <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-2 lg:mb-4">
                   Sound Studio · Group Sessions
                 </p>
@@ -51,7 +51,7 @@ export default function GroupSoundBathsPage() {
               </div>
 
               {/* Right: image — first on mobile, right on desktop */}
-              <div className="relative mt-24 mb-6 lg:my-14 h-72 lg:h-auto lg:min-h-[500px] overflow-hidden order-1 lg:order-2">
+              <div className="relative mt-24 lg:my-14 h-72 lg:h-auto lg:min-h-[500px] overflow-hidden order-1 lg:order-2">
                 <Image
                   src="/images/wellness-relaxtion-sound-studio.jpeg"
                   alt="Group sound bath room with crystal singing bowls, gong and yoga mats at Sound Studio, Mudeford, Christchurch"
