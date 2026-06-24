@@ -17,10 +17,10 @@ const services = [
   {
     id: "sound-therapy",
     label: "02",
-    title: "Sound Therapy",
-    subtitle: "Private Sessions",
+    title: "Private Sessions",
+    subtitle: "One-To-One",
     description:
-      "A deeply personal one-to-one experience tailored to your wellbeing goals. Instruments are placed on and around the body for a full vibrational reset.",
+      "Personal sound healing & tarot sessions for deeper relaxation.",
     detail: "60 min · 1:1",
     image: "/images/private-sound-bath.jpeg",
     imageAlt: "Sam performing a private 1:1 sound healing session with a client at Sound Studio, Christchurch, Dorset",
