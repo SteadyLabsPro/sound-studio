@@ -87,7 +87,7 @@ export default function AllServicesPage() {
               </h1>
             </div>
             <p className="font-sans text-sm md:text-base text-dark/50 max-w-xs leading-relaxed">
-              Every session is held with care and intention in our peaceful studio in Mudeford, Christchurch.
+              From intimate studio sessions to luxury spa events — every experience is held with care and intention.
             </p>
           </div>
         </section>
@@ -180,7 +180,7 @@ export default function AllServicesPage() {
           <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
             <div className="h-px flex-1 bg-dark/10 hidden md:block" />
             <p className="font-sans text-sm md:text-base text-dark/50 leading-relaxed max-w-lg">
-              All sessions take place in our peaceful wellness pod in Mudeford, Christchurch. Questions?{" "}
+              Private and group sessions are held at our studio in Mudeford, Christchurch. Corporate and bespoke events are available at venues across Dorset, Hampshire, and beyond. Any questions?{" "}
               <Link href="/contact" className="text-dark underline underline-offset-4 hover:text-gold transition-colors">
                 Get in touch
               </Link>.
