@@ -39,7 +39,7 @@ export default function GroupSoundBathsPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
                   >
-                    Book a Sound Bath
+                    Book a Date
                   </a>
                   <a
                     href="#pricing"
