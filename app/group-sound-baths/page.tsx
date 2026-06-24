@@ -51,7 +51,7 @@ export default function GroupSoundBathsPage() {
               </div>
 
               {/* Right: image — first on mobile, right on desktop */}
-              <div className="relative mt-16 lg:mt-0 h-72 lg:h-auto lg:min-h-[560px] overflow-hidden order-1 lg:order-2">
+              <div className="relative mt-24 lg:mt-0 h-72 lg:h-auto lg:min-h-[560px] overflow-hidden order-1 lg:order-2">
                 <Image
                   src="/images/wellness-relaxtion-sound-studio.jpeg"
                   alt="Group sound bath room with crystal singing bowls, gong and yoga mats at Sound Studio, Mudeford, Christchurch"
