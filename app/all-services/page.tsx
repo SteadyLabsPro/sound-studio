@@ -98,7 +98,7 @@ export default function AllServicesPage() {
             {listings.map((item, index) => (
               <div
                 key={item.label}
-                className={`grid grid-cols-1 md:grid-cols-[2fr_3fr] border-t border-dark/10 ${
+                className={`grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-0 md:gap-8 border-t border-dark/10 py-6 md:py-8 ${
                   index === listings.length - 1 ? "border-b" : ""
                 }`}
               >
