@@ -32,12 +32,10 @@ export default function BookingCTA() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://bookwhen.com/soundstudio"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/all-services"
             className="inline-flex items-center justify-center px-10 py-4 bg-gold text-ink text-xs tracking-widest uppercase font-sans hover:bg-gold-light transition-colors duration-300"
           >
-            View All Sessions
+            View All Services
           </a>
           <a
             href="mailto:hello@soundstudio.co.uk"
