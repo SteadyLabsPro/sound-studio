@@ -21,8 +21,8 @@ export default function GroupSoundBathsPage() {
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
 
-              {/* Left: text + CTAs */}
-              <div className="pt-24 md:pt-40 pb-10 md:pb-16 flex flex-col justify-center">
+              {/* Left: text + CTAs — below image on mobile, left on desktop */}
+              <div className="pt-8 lg:pt-40 pb-10 lg:pb-16 flex flex-col justify-center order-2 lg:order-1">
                 <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
                   Sound Studio · Group Sessions
                 </p>
@@ -32,26 +32,26 @@ export default function GroupSoundBathsPage() {
                 <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed max-w-md mb-8">
                   Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths are held regularly — all are welcome, no experience necessary.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="grid grid-cols-2 gap-3 max-w-sm">
                   <a
                     href="https://bookwhen.com/soundstudio"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
+                    className="inline-flex items-center justify-center px-4 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300"
                   >
                     Book a Date
                   </a>
                   <a
                     href="#pricing"
-                    className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit"
+                    className="inline-flex items-center justify-center px-4 py-3 border border-dark/30 text-dark text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300"
                   >
                     View Pricing
                   </a>
                 </div>
               </div>
 
-              {/* Right: image */}
-              <div className="relative h-72 lg:h-auto lg:min-h-[560px] overflow-hidden">
+              {/* Right: image — first on mobile, right on desktop */}
+              <div className="relative mt-16 lg:mt-0 h-72 lg:h-auto lg:min-h-[560px] overflow-hidden order-1 lg:order-2">
                 <Image
                   src="/images/wellness-relaxtion-sound-studio.jpeg"
                   alt="Group sound bath room with crystal singing bowls, gong and yoga mats at Sound Studio, Mudeford, Christchurch"
