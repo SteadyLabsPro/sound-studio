@@ -86,6 +86,9 @@ export default function Footer() {
             <Link href="/gdpr" className="font-sans text-xs text-dark/30 hover:text-dark/50 transition-colors">
               Privacy Policy
             </Link>
+            <Link href="/terms" className="font-sans text-xs text-dark/30 hover:text-dark/50 transition-colors">
+              Terms &amp; Conditions
+            </Link>
           </div>
           <p className="font-sans text-xs text-dark/25">
             Site by{" "}
