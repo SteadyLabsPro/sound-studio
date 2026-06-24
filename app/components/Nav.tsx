@@ -1,11 +1,18 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+const servicesLinks = [
+  { label: "All Sessions", href: "/services" },
+  { label: "Group Sound Baths", href: "/group-sound-baths" },
+];
+
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-linen backdrop-blur-sm border-b border-dark/10">
@@ -32,8 +39,54 @@ export default function Nav() {
 
         {/* Desktop nav links */}
         <ul className="hidden md:flex items-center gap-8 text-sm tracking-widest uppercase font-sans">
+
+          {/* Services with dropdown */}
+          <li
+            className="relative"
+            onMouseEnter={() => setServicesOpen(true)}
+            onMouseLeave={() => setServicesOpen(false)}
+          >
+            <button
+              className="flex items-center gap-1.5 text-dark/65 hover:text-dark transition-colors"
+              aria-expanded={servicesOpen}
+            >
+              Services
+              <svg
+                className={`w-3 h-3 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`}
+                viewBox="0 0 12 12"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+              >
+                <path d="M2 4l4 4 4-4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+
+            {/* Dropdown panel */}
+            <div
+              className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 w-52 bg-linen border border-dark/10 shadow-sm transition-all duration-200 ${
+                servicesOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none"
+              }`}
+            >
+              {/* small notch */}
+              <div className="absolute -top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-linen border-l border-t border-dark/10 rotate-45" />
+              <ul className="py-2">
+                {servicesLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="block px-5 py-3 text-[0.65rem] tracking-[0.2em] uppercase font-sans text-dark/60 hover:text-dark hover:bg-cream transition-colors duration-200"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </li>
+
+          {/* Other nav links */}
           {[
-            { label: "Services", href: "/services" },
             { label: "About", href: "/about" },
             { label: "Gallery", href: "/gallery" },
             { label: "Contact", href: "/contact" },
@@ -72,10 +125,42 @@ export default function Nav() {
       </nav>
 
       {/* Mobile menu */}
-      <div className={`md:hidden bg-linen border-t border-dark/10 transition-all duration-300 overflow-hidden ${menuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"}`}>
+      <div className={`md:hidden bg-linen border-t border-dark/10 transition-all duration-300 overflow-hidden ${menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
         <ul className="px-6 py-6 flex flex-col gap-5 text-sm tracking-widest uppercase font-sans text-dark/70">
+
+          {/* Services with sub-links */}
+          <li>
+            <button
+              className="flex items-center justify-between w-full hover:text-dark transition-colors"
+              onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+            >
+              Services
+              <svg
+                className={`w-3 h-3 transition-transform duration-200 ${mobileServicesOpen ? "rotate-180" : ""}`}
+                viewBox="0 0 12 12"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+              >
+                <path d="M2 4l4 4 4-4" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+            <ul className={`overflow-hidden transition-all duration-300 ${mobileServicesOpen ? "max-h-24 mt-3" : "max-h-0"}`}>
+              {servicesLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    onClick={() => { setMenuOpen(false); setMobileServicesOpen(false); }}
+                    className="block py-2 pl-4 text-xs tracking-[0.2em] uppercase text-dark/50 hover:text-dark border-l border-dark/10 transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+
           {[
-            { label: "Services", href: "/services" },
             { label: "About", href: "/about" },
             { label: "Gallery", href: "/gallery" },
             { label: "Contact", href: "/contact" },
@@ -90,6 +175,7 @@ export default function Nav() {
               </a>
             </li>
           ))}
+
           <li>
             <a
               href="https://bookwhen.com/soundstudio"
@@ -105,4 +191,3 @@ export default function Nav() {
     </header>
   );
 }
-
