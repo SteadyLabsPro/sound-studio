@@ -32,7 +32,7 @@ const services = [
     title: "Tarot",
     subtitle: "Intuitive Readings",
     description:
-      "A reflective and intuitive tarot reading to gain clarity, perspective and insight. Available as a standalone session or paired with sound healing.",
+      "Private tarot readings with optional sound healing.",
     detail: "45 min · 1:1",
     image: "/images/tarot-reading-christchurch-uk.jpeg",
     imageAlt: "Tarot cards laid out during an intuitive reading session at Sound Studio, Christchurch, Dorset",
