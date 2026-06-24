@@ -52,7 +52,7 @@ export default function PrivateHealingSessionsPage() {
               </div>
 
               {/* Right: image */}
-              <div className="relative mt-24 lg:my-14 h-72 lg:h-auto lg:min-h-[500px] overflow-hidden order-1 lg:order-2">
+              <div className="relative mt-24 lg:mt-24 lg:mb-14 h-72 lg:h-auto lg:min-h-[500px] overflow-hidden order-1 lg:order-2">
                 <Image
                   src="/images/private-sound-bath.jpeg"
                   alt="Sam performing a private 1:1 sound healing session at Sound Studio, Christchurch, Dorset"
