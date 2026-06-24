@@ -66,78 +66,64 @@ export default function GroupSoundBathsPage() {
           </div>
         </section>
 
-        {/* About the session */}
-        <section className="bg-linen py-14 md:py-24">
-          <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20">
-
-            <div>
-              <h2 className="font-display text-3xl md:text-4xl text-dark font-medium leading-tight mb-6">
-                What to <em className="font-light italic">expect</em>
-              </h2>
-              <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed mb-4">
-                Arrive, settle in and let the sound do the rest. Each session begins gently, guiding you into a deep state of rest as layers of sound wash over and through you.
-              </p>
-              <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed">
-                Sessions are held in Sam&apos;s peaceful wellness pod in Mudeford — a calm, nurturing space created for healing and reconnection. Bring a yoga mat or use ours, wear comfortable clothing, and come with an open mind.
-              </p>
-            </div>
-
-            <div>
-              <h2 className="font-display text-3xl md:text-4xl text-dark font-medium leading-tight mb-6">
-                Good to <em className="font-light italic">know</em>
-              </h2>
-              <ul className="flex flex-col gap-3">
-                {[
-                  "No experience or prior knowledge needed",
-                  "Mats and blankets provided",
-                  "Arrive 5–10 minutes before your session",
-                  "Suitable for all ages and abilities",
-                  "Located in Mudeford, Christchurch, Dorset",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3 font-sans text-sm md:text-base text-dark/55 leading-relaxed">
-                    <span className="mt-2 block w-4 h-px bg-gold flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-          </div>
-        </section>
-
-        {/* Pricing */}
-        <section id="pricing" className="bg-cream py-14 md:py-24">
+        {/* Pricing + bullet points — bg-linen contrasts with cream above */}
+        <section id="pricing" className="bg-linen py-14 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-4">
-              Sessions &amp; Pricing
-            </p>
-            <h2 className="font-display text-3xl md:text-4xl text-dark font-medium leading-tight mb-10">
-              Choose your <em className="font-light italic">session</em>
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mb-10">
-              <div className="bg-linen p-6">
-                <p className="font-display text-xl text-dark mb-1">1 Hour Sound Bath</p>
-                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
-                <p className="font-display text-3xl text-dark font-light">
-                  &pound;20 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20">
+
+              {/* Left: heading + price cards + CTA */}
+              <div>
+                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-4">
+                  Sessions &amp; Pricing
                 </p>
+                <h2 className="font-display text-3xl md:text-4xl text-dark font-medium leading-tight mb-8">
+                  Choose your <em className="font-light italic">session</em>
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                  <div className="bg-cream p-6">
+                    <p className="font-display text-xl text-dark mb-1">1 Hour Sound Bath</p>
+                    <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
+                    <p className="font-display text-3xl text-dark font-light">
+                      &pound;20 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
+                    </p>
+                  </div>
+                  <div className="bg-cream p-6">
+                    <p className="font-display text-xl text-dark mb-1">90 Minute Sound Bath</p>
+                    <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
+                    <p className="font-display text-3xl text-dark font-light">
+                      &pound;25 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
+                    </p>
+                  </div>
+                </div>
+                <a
+                  href="https://bookwhen.com/soundstudio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
+                >
+                  Book a Sound Bath
+                </a>
               </div>
-              <div className="bg-linen p-6">
-                <p className="font-display text-xl text-dark mb-1">90 Minute Sound Bath</p>
-                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
-                <p className="font-display text-3xl text-dark font-light">
-                  &pound;25 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
-                </p>
+
+              {/* Right: bullet points */}
+              <div className="lg:pt-16">
+                <ul className="flex flex-col gap-4">
+                  {[
+                    "No experience or prior knowledge needed",
+                    "Mats and blankets provided",
+                    "Arrive 5–10 minutes before your session",
+                    "Suitable for all ages and abilities",
+                    "Located in Mudeford, Christchurch, Dorset",
+                  ].map((item) => (
+                    <li key={item} className="flex items-start gap-3 font-sans text-sm md:text-base text-dark/55 leading-relaxed">
+                      <span className="mt-2 block w-4 h-px bg-gold flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
+
             </div>
-            <a
-              href="https://bookwhen.com/soundstudio"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
-            >
-              Book a Sound Bath
-            </a>
           </div>
         </section>
 
