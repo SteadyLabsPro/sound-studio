@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const servicesLinks = [
-  { label: "All Sessions", href: "/services" },
+  { label: "All Sessions", href: "/all-services" },
   { label: "Group Sound Baths", href: "/group-sound-baths" },
   { label: "Private Sessions", href: "/private-healing-sessions" },
   { label: "Tarot Readings", href: "/tarot-readings" },
