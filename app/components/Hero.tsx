@@ -40,7 +40,7 @@ export default function Hero() {
 
         <div className="flex flex-row items-center gap-6">
           <a
-            href="https://bookwhen.com"
+            href="https://bookwhen.com/soundstudio"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 whitespace-nowrap"

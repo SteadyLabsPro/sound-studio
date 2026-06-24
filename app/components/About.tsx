@@ -67,7 +67,7 @@ export default function About({ isPage = false }: { isPage?: boolean }) {
             </p>
 
             <a
-              href="https://bookwhen.com"
+              href="https://bookwhen.com/soundstudio"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-4 font-sans text-xs tracking-[0.22em] uppercase text-dark mt-10 w-fit"

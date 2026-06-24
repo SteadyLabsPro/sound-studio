@@ -51,7 +51,7 @@ export default function Nav() {
 
         {/* Desktop CTA */}
         <a
-          href="https://bookwhen.com"
+          href="https://bookwhen.com/soundstudio"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center px-5 py-2.5 text-xs tracking-widest uppercase font-sans bg-cream border border-dark/30 text-dark hover:bg-dark hover:text-cream transition-all duration-300"
@@ -92,7 +92,7 @@ export default function Nav() {
           ))}
           <li>
             <a
-              href="https://bookwhen.com"
+              href="https://bookwhen.com/soundstudio"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-5 py-2.5 bg-cream border border-dark/30 text-dark text-xs tracking-widest uppercase hover:bg-dark hover:text-cream transition-all duration-300"

@@ -57,7 +57,7 @@ export default function ServicesDetail() {
               </div>
             </div>
             <a
-              href="https://bookwhen.com"
+              href="https://bookwhen.com/soundstudio"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
@@ -116,12 +116,14 @@ export default function ServicesDetail() {
                 <p className="font-display text-3xl text-dark font-light">&pound;95</p>
               </div>
             </div>
-            <Link
-              href="/contact"
+            <a
+              href="https://bookwhen.com/soundstudio"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit"
             >
               Enquire to Book
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -159,12 +161,14 @@ export default function ServicesDetail() {
                 <p className="font-display text-3xl text-dark font-light">&pound;40</p>
               </div>
             </div>
-            <Link
-              href="/contact"
+            <a
+              href="https://bookwhen.com/soundstudio"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit"
             >
               Enquire to Book
-            </Link>
+            </a>
           </div>
         </div>
       </section>
