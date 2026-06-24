@@ -109,7 +109,7 @@ export default function GroupSoundBathsPage() {
               <div className="lg:pt-16">
                 <ul className="flex flex-col gap-4">
                   {[
-                    "No experience or prior knowledge needed",
+                    "Join a group sound bath on a scheduled date",
                     "Mats and blankets provided",
                     "Arrive 5–10 minutes before your session",
                     "Suitable for all ages and abilities",
