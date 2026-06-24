@@ -44,7 +44,7 @@ const services = [
     title: "Corporate & Events",
     subtitle: "Wellness Events",
     description:
-      "Bring the healing power of sound to your corporate event, wellness day or private celebration. Tailored experiences for groups of any size.",
+      "Wellbeing sound baths for workplaces and gatherings.",
     detail: "Bespoke · On request",
     image: "/images/sound-bath-chewton-glen-hampshire.jpeg",
     imageAlt: "Sam performing a corporate sound bath at Chewton Glen Hotel & Spa, Hampshire",
