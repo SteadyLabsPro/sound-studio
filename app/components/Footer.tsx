@@ -37,14 +37,20 @@ export default function Footer() {
               Navigate
             </p>
             <ul className="flex flex-col gap-3 font-sans text-sm md:text-base text-dark/55">
-              {["Services", "About", "Gallery", "Contact"].map((item) => (
-                <li key={item}>
-                  <a
-                    href={`#${item.toLowerCase()}`}
-                    className="hover:text-dark transition-colors"
-                  >
-                    {item}
-                  </a>
+              {[
+                { label: "All Services", href: "/all-services" },
+                { label: "Group Sound Baths", href: "/group-sound-baths" },
+                { label: "Private Sessions", href: "/private-healing-sessions" },
+                { label: "Tarot Readings", href: "/tarot-readings" },
+                { label: "Corporate & Events", href: "/corporate-events" },
+                { label: "About", href: "/about" },
+                { label: "Gallery", href: "/gallery" },
+                { label: "Contact", href: "/contact" },
+              ].map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="hover:text-dark transition-colors">
+                    {item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
