@@ -38,6 +38,18 @@ const services = [
     imageAlt: "Tarot cards laid out during an intuitive reading session at Sound Studio, Christchurch, Dorset",
     objectPosition: "center 85%",
   },
+  {
+    id: "corporate",
+    label: "04",
+    title: "Corporate & Events",
+    subtitle: "Wellness Events",
+    description:
+      "Bring the healing power of sound to your corporate event, wellness day or private celebration. Tailored experiences for groups of any size.",
+    detail: "Bespoke · On request",
+    image: "/images/sound-bath-chewton-glen-hampshire.jpeg",
+    imageAlt: "Sam performing a corporate sound bath at Chewton Glen Hotel & Spa, Hampshire",
+    objectPosition: "center 50%",
+  },
 ];
 
 export default function Services() {
@@ -62,7 +74,7 @@ export default function Services() {
         </div>
 
         {/* Service cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {services.map((service) => (
             <Link
               key={service.id}
@@ -77,7 +89,7 @@ export default function Services() {
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                   style={{ objectPosition: service.objectPosition }}
-                  sizes="(max-width: 768px) 100vw, 33vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 />
                 <div className="absolute inset-0 bg-dark/10 group-hover:bg-dark/0 transition-colors duration-500" />
               </div>
