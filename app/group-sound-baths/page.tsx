@@ -143,21 +143,50 @@ export default function GroupSoundBathsPage() {
           </div>
         </section>
 
-        {/* Footer note */}
-        <section className="bg-cream py-10 border-t border-dark/10">
-          <div className="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row md:items-center gap-6 md:gap-16">
-            <div className="h-px flex-1 bg-dark/10 hidden md:block" />
-            <p className="font-sans text-sm md:text-base text-dark/50 leading-relaxed max-w-lg">
-              Looking for a private or bespoke experience?{" "}
-              <Link href="/services" className="text-dark underline underline-offset-4 hover:text-gold transition-colors">
-                View all sessions
-              </Link>{" "}
-              or{" "}
-              <Link href="/contact" className="text-dark underline underline-offset-4 hover:text-gold transition-colors">
-                get in touch
-              </Link>.
-            </p>
-            <div className="h-px flex-1 bg-dark/10 hidden md:block" />
+        {/* Private & Bespoke CTA — image right */}
+        <section className="bg-parchment overflow-hidden">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
+
+              {/* Text */}
+              <div className="px-6 md:px-10 lg:px-16 py-16 md:py-24 flex flex-col justify-center">
+                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-4">
+                  Also Available
+                </p>
+                <h2 className="font-display text-3xl md:text-4xl text-dark font-medium leading-tight mb-5">
+                  Private &amp; <em className="font-light italic">Bespoke</em><br />Experiences
+                </h2>
+                <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed max-w-md mb-8">
+                  From intimate 1:1 sound healing sessions to tailored corporate wellness events — every experience is shaped around you.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link
+                    href="/services"
+                    className="inline-flex items-center justify-center px-6 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300"
+                  >
+                    View All Sessions
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center justify-center px-6 py-3 border border-dark/30 text-dark text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300"
+                  >
+                    Get in Touch
+                  </Link>
+                </div>
+              </div>
+
+              {/* Image */}
+              <div className="relative h-72 lg:h-auto min-h-[360px]">
+                <Image
+                  src="/images/sound-bath-chewton-glen-hampshire.jpeg"
+                  alt="Corporate sound bath at Chewton Glen Hotel & Spa — bespoke wellness events by Sound Studio"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+
+            </div>
           </div>
         </section>
 
