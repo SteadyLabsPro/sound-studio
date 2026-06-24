@@ -7,6 +7,7 @@ import Image from "next/image";
 const servicesLinks = [
   { label: "All Sessions", href: "/services" },
   { label: "Group Sound Baths", href: "/group-sound-baths" },
+  { label: "Private Sessions", href: "/private-healing-sessions" },
 ];
 
 export default function Nav() {
