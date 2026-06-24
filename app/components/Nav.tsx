@@ -134,7 +134,7 @@ export default function Nav() {
           {/* Services with sub-links */}
           <li>
             <button
-              className="flex items-center justify-between w-full hover:text-dark transition-colors"
+              className="flex items-center justify-between w-full uppercase hover:text-dark transition-colors"
               onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
             >
               Services
