@@ -34,14 +34,12 @@ export default function PrivateHealingSessionsPage() {
                   Choose from a deeply restorative private soundbath, or combine intuitive tarot guidance with sound healing for a truly personal experience.
                 </p>
                 <div className="grid grid-cols-2 gap-3 max-w-sm">
-                  <a
-                    href="https://bookwhen.com/soundstudio"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link
+                    href="/contact"
                     className="inline-flex items-center justify-center px-4 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300"
                   >
                     Enquire to Book
-                  </a>
+                  </Link>
                   <a
                     href="#sessions"
                     className="inline-flex items-center justify-center px-4 py-3 border border-dark/30 text-dark text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300"
@@ -90,14 +88,12 @@ export default function PrivateHealingSessionsPage() {
                     <p className="font-sans text-xs md:text-sm text-dark/55 leading-relaxed mb-5">
                       Enjoy a private 60-minute sound healing session in our immersive sound pod. Begin with a soothing herbal tea before relaxing into a personalised soundbath with crystal singing bowls and gentle on-body bowl therapy. Designed to calm the nervous system, ease tension, restore balance, and leave you feeling deeply relaxed and renewed.
                     </p>
-                    <a
-                      href="https://bookwhen.com/soundstudio"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      href="/contact"
                       className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/50 hover:text-gold transition-colors flex items-center gap-2 w-fit"
                     >
-                      Book <span className="block w-4 h-px bg-current" />
-                    </a>
+                      Enquire <span className="block w-4 h-px bg-current" />
+                    </Link>
                   </div>
 
                   {/* Tarot sessions — 2 col */}
@@ -109,14 +105,12 @@ export default function PrivateHealingSessionsPage() {
                         A personalised session combining intuitive tarot guidance with a restorative sound healing journey.
                       </p>
                       <p className="font-display text-3xl text-dark font-light mb-4">&pound;65</p>
-                      <a
-                        href="https://bookwhen.com/soundstudio"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <Link
+                        href="/contact"
                         className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/50 hover:text-gold transition-colors flex items-center gap-2 w-fit"
                       >
-                        Book <span className="block w-4 h-px bg-current" />
-                      </a>
+                        Enquire <span className="block w-4 h-px bg-current" />
+                      </Link>
                     </div>
                     <div className="bg-cream p-6 flex flex-col">
                       <p className="font-display text-xl text-dark mb-1">2:1 Tarot &amp; Sound Healing</p>
@@ -125,27 +119,23 @@ export default function PrivateHealingSessionsPage() {
                         Share the experience with a friend, partner, or family member in a supportive setting.
                       </p>
                       <p className="font-display text-3xl text-dark font-light mb-4">&pound;95</p>
-                      <a
-                        href="https://bookwhen.com/soundstudio"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <Link
+                        href="/contact"
                         className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/50 hover:text-gold transition-colors flex items-center gap-2 w-fit"
                       >
-                        Book <span className="block w-4 h-px bg-current" />
-                      </a>
+                        Enquire <span className="block w-4 h-px bg-current" />
+                      </Link>
                     </div>
                   </div>
 
                 </div>
 
-                <a
-                  href="https://bookwhen.com/soundstudio"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/contact"
                   className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
                 >
                   Enquire to Book
-                </a>
+                </Link>
               </div>
 
               {/* Right: bullet points */}
