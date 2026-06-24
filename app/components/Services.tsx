@@ -4,6 +4,7 @@ import Link from "next/link";
 const services = [
   {
     id: "sound-baths",
+    href: "/group-sound-baths",
     label: "01",
     title: "Sound Baths",
     subtitle: "Group Sessions",
@@ -78,7 +79,7 @@ export default function Services() {
           {services.map((service) => (
             <Link
               key={service.id}
-              href={`/services#${service.id}`}
+              href={(service as any).href ?? `/services#${service.id}`}
               className="group bg-cream overflow-hidden flex flex-col cursor-pointer"
             >
               {/* Image */}
