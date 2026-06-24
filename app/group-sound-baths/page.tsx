@@ -22,8 +22,8 @@ export default function GroupSoundBathsPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
 
               {/* Left: text + CTAs — below image on mobile, left on desktop */}
-              <div className="pt-8 lg:pt-40 pb-10 lg:pb-16 flex flex-col justify-center order-2 lg:order-1">
-                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
+              <div className="pt-4 lg:pt-40 pb-10 lg:pb-16 flex flex-col justify-center order-2 lg:order-1">
+                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-2 lg:mb-4">
                   Sound Studio · Group Sessions
                 </p>
                 <h1 className="font-display font-medium text-dark text-5xl md:text-[4.2rem] xl:text-[4.8rem] leading-tight mb-6">
