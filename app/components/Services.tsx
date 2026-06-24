@@ -17,6 +17,7 @@ const services = [
   },
   {
     id: "sound-therapy",
+    href: "/private-healing-sessions",
     label: "02",
     title: "Private Sessions",
     subtitle: "One-To-One",
@@ -29,6 +30,7 @@ const services = [
   },
   {
     id: "tarot",
+    href: "/tarot-readings",
     label: "03",
     title: "Tarot",
     subtitle: "Intuitive Readings",
@@ -41,6 +43,7 @@ const services = [
   },
   {
     id: "corporate",
+    href: "/corporate-events",
     label: "04",
     title: "Corporate & Events",
     subtitle: "Wellness Events",
