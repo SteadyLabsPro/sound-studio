@@ -132,7 +132,7 @@ export default function GroupSoundBathsPage() {
                     "Located in Mudeford, Christchurch, Dorset",
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3 font-sans text-sm md:text-base text-dark/55 leading-relaxed">
-                      <span className="mt-2 block w-4 h-px bg-gold flex-shrink-0" />
+                      <span className="mt-[0.45em] block w-4 h-px bg-gold flex-shrink-0" />
                       {item}
                     </li>
                   ))}
