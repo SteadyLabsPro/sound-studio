@@ -47,7 +47,7 @@ export default function Nav() {
             onMouseLeave={() => setServicesOpen(false)}
           >
             <button
-              className="flex items-center gap-1.5 text-dark/65 hover:text-dark transition-colors"
+              className="flex items-center gap-1.5 uppercase text-dark/65 hover:text-dark transition-colors"
               aria-expanded={servicesOpen}
             >
               Services
@@ -62,15 +62,16 @@ export default function Nav() {
               </svg>
             </button>
 
-            {/* Dropdown panel */}
+            {/* Dropdown — pt-3 creates a transparent bridge so the mouse doesn't leave the hover zone */}
             <div
-              className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 w-52 bg-linen border border-dark/10 shadow-sm transition-all duration-200 ${
+              className={`absolute top-full left-1/2 -translate-x-1/2 pt-3 w-52 transition-all duration-200 ${
                 servicesOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none"
               }`}
             >
-              {/* small notch */}
-              <div className="absolute -top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-linen border-l border-t border-dark/10 rotate-45" />
-              <ul className="py-2">
+              <div className="bg-linen border border-dark/10 shadow-sm relative">
+                {/* small notch */}
+                <div className="absolute -top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 bg-linen border-l border-t border-dark/10 rotate-45" />
+                <ul className="py-2">
                 {servicesLinks.map((link) => (
                   <li key={link.href}>
                     <Link
@@ -82,6 +83,7 @@ export default function Nav() {
                   </li>
                 ))}
               </ul>
+              </div>
             </div>
           </li>
 
