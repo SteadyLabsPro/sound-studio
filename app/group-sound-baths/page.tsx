@@ -16,39 +16,58 @@ export default function GroupSoundBathsPage() {
       <Nav />
       <main>
 
-        {/* Page header */}
-        <section className="bg-cream pt-24 md:pt-40 pb-10 md:pb-16 border-b border-dark/10">
+        {/* Hero — text left, image right on desktop */}
+        <section className="bg-cream border-b border-dark/10 overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
-            <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
-              Sound Studio · Group Sessions
-            </p>
-            <h1 className="font-display font-medium text-dark text-5xl md:text-[4.2rem] xl:text-[4.8rem] leading-tight mb-6">
-              Group <em className="font-light italic">Sound Baths</em>
-            </h1>
-            <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed max-w-xl">
-              Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths are held regularly — all are welcome, no experience necessary.
-            </p>
-          </div>
-        </section>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
 
-        {/* Hero image */}
-        <section className="bg-linen">
-          <div className="max-w-7xl mx-auto px-6 md:px-10 py-10 md:py-16">
-            <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden">
-              <Image
-                src="/images/wellness-relaxtion-sound-studio.jpeg"
-                alt="Group sound bath room with crystal singing bowls, gong and yoga mats at Sound Studio, Mudeford, Christchurch"
-                fill
-                priority
-                className="object-cover object-[center_30%]"
-                sizes="(max-width: 768px) 100vw, 90vw"
-              />
+              {/* Left: text + CTAs */}
+              <div className="pt-24 md:pt-40 pb-10 md:pb-16 flex flex-col justify-center">
+                <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-6">
+                  Sound Studio · Group Sessions
+                </p>
+                <h1 className="font-display font-medium text-dark text-5xl md:text-[4.2rem] xl:text-[4.8rem] leading-tight mb-6">
+                  Group <em className="font-light italic">Sound Baths</em>
+                </h1>
+                <p className="font-sans text-sm md:text-base text-dark/55 leading-relaxed max-w-md mb-8">
+                  Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. Group sound baths are held regularly — all are welcome, no experience necessary.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a
+                    href="https://bookwhen.com/soundstudio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-7 py-3 bg-gold text-ink text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-gold-light transition-colors duration-300 w-fit"
+                  >
+                    Book a Sound Bath
+                  </a>
+                  <a
+                    href="#pricing"
+                    className="inline-flex items-center justify-center px-7 py-3 border border-dark/30 text-dark text-[0.65rem] md:text-xs tracking-[0.22em] uppercase font-sans hover:bg-dark hover:text-cream transition-all duration-300 w-fit"
+                  >
+                    View Pricing
+                  </a>
+                </div>
+              </div>
+
+              {/* Right: image */}
+              <div className="relative h-72 lg:h-auto lg:min-h-[560px] overflow-hidden">
+                <Image
+                  src="/images/wellness-relaxtion-sound-studio.jpeg"
+                  alt="Group sound bath room with crystal singing bowls, gong and yoga mats at Sound Studio, Mudeford, Christchurch"
+                  fill
+                  priority
+                  className="object-cover object-[center_30%]"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+
             </div>
           </div>
         </section>
 
         {/* About the session */}
-        <section className="bg-linen pb-14 md:pb-24">
+        <section className="bg-linen py-14 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20">
 
             <div>
@@ -87,7 +106,7 @@ export default function GroupSoundBathsPage() {
         </section>
 
         {/* Pricing */}
-        <section className="bg-cream py-14 md:py-24">
+        <section id="pricing" className="bg-cream py-14 md:py-24">
           <div className="max-w-7xl mx-auto px-6 md:px-10">
             <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.35em] uppercase text-gold mb-4">
               Sessions &amp; Pricing
