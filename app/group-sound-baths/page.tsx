@@ -80,19 +80,35 @@ export default function GroupSoundBathsPage() {
                   Choose your <em className="font-light italic">session</em>
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-                  <div className="bg-cream p-6">
+                  <div className="bg-cream p-6 flex flex-col">
                     <p className="font-display text-xl text-dark mb-1">1 Hour Sound Bath</p>
                     <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
-                    <p className="font-display text-3xl text-dark font-light">
+                    <p className="font-display text-3xl text-dark font-light mb-4">
                       &pound;20 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
                     </p>
+                    <a
+                      href="https://bookwhen.com/soundstudio"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/50 hover:text-gold transition-colors flex items-center gap-2 w-fit"
+                    >
+                      Book <span className="block w-4 h-px bg-current" />
+                    </a>
                   </div>
-                  <div className="bg-cream p-6">
+                  <div className="bg-cream p-6 flex flex-col">
                     <p className="font-display text-xl text-dark mb-1">90 Minute Sound Bath</p>
                     <p className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/40 mb-4">Group Session</p>
-                    <p className="font-display text-3xl text-dark font-light">
+                    <p className="font-display text-3xl text-dark font-light mb-4">
                       &pound;25 <span className="font-sans text-xs text-dark/40 tracking-wider">per person</span>
                     </p>
+                    <a
+                      href="https://bookwhen.com/soundstudio"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-sans text-[0.6rem] md:text-xs tracking-[0.2em] uppercase text-dark/50 hover:text-gold transition-colors flex items-center gap-2 w-fit"
+                    >
+                      Book <span className="block w-4 h-px bg-current" />
+                    </a>
                   </div>
                 </div>
                 <a
