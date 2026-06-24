@@ -8,6 +8,8 @@ const servicesLinks = [
   { label: "All Sessions", href: "/services" },
   { label: "Group Sound Baths", href: "/group-sound-baths" },
   { label: "Private Sessions", href: "/private-healing-sessions" },
+  { label: "Tarot Readings", href: "/tarot-readings" },
+  { label: "Corporate & Events", href: "/corporate-events" },
 ];
 
 export default function Nav() {
@@ -65,7 +67,7 @@ export default function Nav() {
 
             {/* Dropdown — pt-3 creates a transparent bridge so the mouse doesn't leave the hover zone */}
             <div
-              className={`absolute top-full left-1/2 -translate-x-1/2 pt-3 w-52 transition-all duration-200 ${
+              className={`absolute top-full left-1/2 -translate-x-1/2 pt-3 w-60 transition-all duration-200 ${
                 servicesOpen ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-1 pointer-events-none"
               }`}
             >
@@ -148,7 +150,7 @@ export default function Nav() {
                 <path d="M2 4l4 4 4-4" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
-            <ul className={`overflow-hidden transition-all duration-300 ${mobileServicesOpen ? "max-h-24 mt-3" : "max-h-0"}`}>
+            <ul className={`overflow-hidden transition-all duration-300 ${mobileServicesOpen ? "max-h-56 mt-3" : "max-h-0"}`}>
               {servicesLinks.map((link) => (
                 <li key={link.href}>
                   <Link
