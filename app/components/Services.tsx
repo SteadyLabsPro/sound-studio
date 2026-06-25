@@ -19,7 +19,7 @@ const services = [
     id: "sound-therapy",
     href: "/private-healing-sessions",
     label: "02",
-    title: "Private Sessions",
+    title: "Private Healing Sessions",
     subtitle: "One-To-One",
     description:
       "Personal sound healing & tarot sessions for deeper relaxation.",
