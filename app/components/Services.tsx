@@ -32,7 +32,7 @@ const services = [
     id: "tarot",
     href: "/tarot-readings",
     label: "03",
-    title: "Tarot",
+    title: "Tarot Readings",
     subtitle: "Intuitive Readings",
     description:
       "Private tarot readings with optional sound healing.",
