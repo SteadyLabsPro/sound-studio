@@ -24,9 +24,9 @@ export default function ContactForm() {
     const data = new FormData(form);
 
     try {
-      // Temporary Formspree test form for Sound Studio. The destination
-      // address is configured in the Formspree dashboard for this form.
-      const res = await fetch("https://formspree.io/f/mnjkpgrw", {
+      // Production Formspree form for Sound Studio — delivers enquiries to
+      // Sam's email (destination is configured in the Formspree dashboard).
+      const res = await fetch("https://formspree.io/f/xvzjkvyg", {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
