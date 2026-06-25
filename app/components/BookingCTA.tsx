@@ -38,7 +38,7 @@ export default function BookingCTA() {
             View All Services
           </a>
           <a
-            href="mailto:hello@soundstudio.co.uk"
+            href="/contact"
             className="inline-flex items-center justify-center px-10 py-4 border border-cream/25 text-cream text-xs tracking-widest uppercase font-sans hover:border-cream/60 transition-colors duration-300"
           >
             Get in Touch

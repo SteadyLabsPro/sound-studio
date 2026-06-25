@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
@@ -38,10 +39,11 @@ export default function GdprPage() {
                   Sound Studio is operated by Sam, a sole trader based in Mudeford, Christchurch, Dorset. We offer sound baths, sound healing and tarot sessions in person and at private events.
                 </p>
                 <p className="mt-3">
-                  For any data-related queries, contact us at:{" "}
-                  <a href="mailto:hello@soundstudio.co.uk" className="text-dark underline underline-offset-2 hover:text-gold transition-colors">
-                    hello@soundstudio.co.uk
-                  </a>
+                  For any data-related queries, please{" "}
+                  <Link href="/contact" className="text-dark underline underline-offset-2 hover:text-gold transition-colors">
+                    contact us via our contact form
+                  </Link>
+                  .
                 </p>
               </PolicySection>
 
@@ -116,10 +118,10 @@ export default function GdprPage() {
                   <PolicyItem>Object to our use of your data</PolicyItem>
                 </ul>
                 <p className="mt-4">
-                  To exercise any of these rights, please email{" "}
-                  <a href="mailto:hello@soundstudio.co.uk" className="text-dark underline underline-offset-2 hover:text-gold transition-colors">
-                    hello@soundstudio.co.uk
-                  </a>
+                  To exercise any of these rights, please{" "}
+                  <Link href="/contact" className="text-dark underline underline-offset-2 hover:text-gold transition-colors">
+                    contact us via our contact form
+                  </Link>
                   . We will respond within 30 days.
                 </p>
               </PolicySection>

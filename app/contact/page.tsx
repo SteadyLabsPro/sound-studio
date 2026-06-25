@@ -58,7 +58,7 @@ export default function ContactPage() {
               </div>
 
               {/* Contact details */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-2 border-t border-dark/10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-2 border-t border-dark/10">
 
                 <div>
                   <p className="font-sans text-[0.6rem] tracking-[0.28em] uppercase text-gold mb-3">
@@ -69,18 +69,6 @@ export default function ContactPage() {
                     Christchurch<br />
                     Dorset
                   </p>
-                </div>
-
-                <div>
-                  <p className="font-sans text-[0.6rem] tracking-[0.28em] uppercase text-gold mb-3">
-                    Email
-                  </p>
-                  <a
-                    href="mailto:hello@soundstudio.co.uk"
-                    className="font-sans text-sm text-dark/80 hover:text-dark transition-colors leading-relaxed"
-                  >
-                    hello@soundstudio.co.uk
-                  </a>
                 </div>
 
                 <div>

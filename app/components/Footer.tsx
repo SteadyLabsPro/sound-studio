@@ -65,12 +65,9 @@ export default function Footer() {
               <span>Mudeford</span>
               <span>Christchurch</span>
               <span>Dorset</span>
-              <a
-                href="mailto:hello@soundstudio.co.uk"
-                className="mt-3 hover:text-dark transition-colors"
-              >
-                hello@soundstudio.co.uk
-              </a>
+              <Link href="/contact" className="mt-3 hover:text-dark transition-colors">
+                Get in touch
+              </Link>
             </address>
           </div>
         </div>
