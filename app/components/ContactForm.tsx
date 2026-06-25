@@ -65,6 +65,18 @@ export default function ContactForm() {
           field below, so replies go straight to the visitor. */}
       <input type="hidden" name="_subject" value="NEW ENQUIRY: SOUND STUDIO" />
 
+      {/* Honeypot — Formspree silently discards any submission where the
+          _gotcha field is filled. Hidden from real users and assistive tech;
+          only bots that auto-fill every field will trip it. */}
+      <input
+        type="text"
+        name="_gotcha"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        style={{ display: "none" }}
+      />
+
       {/* Name + Email - side by side on wider screens */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
         <Field label="Your Name *">
