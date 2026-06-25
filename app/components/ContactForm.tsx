@@ -24,10 +24,9 @@ export default function ContactForm() {
     const data = new FormData(form);
 
     try {
-      // To activate: sign up at formspree.io with hello@soundstudio.co.uk,
-      // create a form, and replace YOUR_FORM_ID with the ID it gives you.
-      // Formspree will email every submission straight to that address.
-      const res = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      // Temporary Formspree test form for Sound Studio. The destination
+      // address is configured in the Formspree dashboard for this form.
+      const res = await fetch("https://formspree.io/f/mnjkpgrw", {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
@@ -61,9 +60,10 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-2.5">
 
-      {/* Formspree magic fields - sets reply-to and subject on received emails */}
-      <input type="hidden" name="_replyto" value="" />
-      <input type="hidden" name="_subject" value="New enquiry via Sound Studio" />
+      {/* Formspree magic field — sets the subject of the received email.
+          Reply-to is handled automatically by Formspree from the "email"
+          field below, so replies go straight to the visitor. */}
+      <input type="hidden" name="_subject" value="NEW ENQUIRY: SOUND STUDIO" />
 
       {/* Name + Email - side by side on wider screens */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
