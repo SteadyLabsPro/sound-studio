@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/all-services" },
   title: "All Services — Sound Studio Christchurch",
   description:
     "Browse all sound healing and tarot sessions at Sound Studio, Mudeford, Christchurch, Dorset. Group sound baths from £20, private sessions, tarot readings, and corporate events.",

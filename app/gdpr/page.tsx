@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/gdpr" },
   title: "Privacy Policy",
   description:
     "Sound Studio's privacy policy and GDPR information. Learn how we collect, use and protect your personal data when you contact us or book a sound healing session.",

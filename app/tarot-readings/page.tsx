@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tarot-readings" },
   title: "Tarot Readings — Sound Studio Christchurch",
   description:
     "Intuitive tarot readings in Mudeford, Christchurch, Dorset. Gain clarity, guidance, and insight through a personalised tarot reading tailored to your current situation. £40 per session.",

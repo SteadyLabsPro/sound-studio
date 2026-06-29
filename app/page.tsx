@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Nav from "./components/Nav";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Sound Studio — Sound Baths & Healing | Christchurch, Dorset",
   description:
     "Immersive sound baths, sound healing and tarot in Mudeford, Christchurch, Dorset. Weekly group sessions from £20 and private 1:1 experiences for deep relaxation, stress relief and mind reset. Near Bournemouth.",

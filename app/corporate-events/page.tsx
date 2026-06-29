@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/corporate-events" },
   title: "Corporate & Events — Sound Studio Christchurch",
   description:
     "Bespoke corporate sound bath wellness events by Sound Studio. Sam brings crystal singing bowls, gongs and chimes to your workplace, wellness day or private event across Dorset and Hampshire.",

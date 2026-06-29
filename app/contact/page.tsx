@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact & Book — Sound Studio Christchurch",
   description:
     "Book a sound bath or enquire about private sound healing, tarot readings or corporate wellness events at Sound Studio in Mudeford, Christchurch, Dorset. Serving Bournemouth, Poole and the New Forest.",

@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms" },
   title: "Terms & Conditions — Sound Studio Christchurch",
   description:
     "Booking terms, refund policy and health disclaimer for Sound Studio, Mudeford, Christchurch, Dorset.",

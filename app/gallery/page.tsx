@@ -4,6 +4,7 @@ import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/gallery" },
   title: "Gallery — Inside Sound Studio",
   description:
     "A glimpse inside Sound Studio — a serene wellness space in Mudeford, Christchurch offering immersive sound baths, crystal singing bowls and sound healing near Bournemouth, Dorset.",

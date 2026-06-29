@@ -5,6 +5,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/group-sound-baths" },
   title: "Group Sound Baths — Sound Studio Christchurch",
   description:
     "Join a group sound bath in Mudeford, Christchurch, Dorset. Lie back and be immersed in waves of healing sound from crystal singing bowls, gongs and chimes. From £20 per person.",

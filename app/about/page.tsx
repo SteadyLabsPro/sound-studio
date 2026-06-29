@@ -4,6 +4,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: "About Sam — Accredited Sound Healer & Therapist",
   description:
     "Meet Sam — accredited sound healer, therapist and founder of Sound Studio in Mudeford, Christchurch, Dorset. Passionate about guiding others to stillness, relaxation and self-discovery through sound healing near Bournemouth.",

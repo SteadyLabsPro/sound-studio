@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://soundstudio.steadylabs.pro"),
+  metadataBase: new URL("https://soundstudio.uk"),
   title: {
     template: "%s | Sound Studio",
     default: "Sound Studio — Sound Baths & Healing | Christchurch, Dorset",
